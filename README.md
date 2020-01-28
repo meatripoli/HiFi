@@ -27,4 +27,4 @@ Note: the MYSQL-\* envarrs do not require surrounding quote marks
 - MYSQL_KEY=yourMySqlDbPassword
 - MYSQL_DBNAME=yourMySqlDbName
 
-TODO: Update the auto generated sequelize `index.js` file to require `config.js` (instead of `config.json`)
+~~TODO: Update the auto generated sequelize `index.js` file to require `config.js` (instead of `config.json`)~~ Done
