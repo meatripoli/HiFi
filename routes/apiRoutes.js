@@ -21,4 +21,18 @@ module.exports = function(app) {
       res.json(dbExample);
     });
   });
+
+  // USER => Api routes
+  app.get("/api/users", function(req, res) {
+    db.User.findAll().then( users => {
+      res.json(users);
+    });
+  });
+  // req.body => email, password
+  app.post("/api/users", function(req, res) {
+    db.User.create(req.body).then( user => {
+      res.json(user);
+    });
+  });
+
 };
