@@ -29,8 +29,8 @@ module.exports = function(sequelize, DataTypes) {
     },
     });
 
-  Store.associate = function(models) {
+  // Store.associate = function(models) {
 
-  };
+  // };
   return Store;
 };

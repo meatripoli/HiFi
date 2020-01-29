@@ -1,7 +1,7 @@
-const db = require('../models');
+var db = require('../models');
 
 module.exports = function(app) {
-  app.get("api/stores", function(req, res) {
+  app.get("/api/stores", function(req, res) {
     db.Store.findAll().then( data => {
       res.json(data);
     });
