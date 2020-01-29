@@ -18,11 +18,17 @@ module.exports = function(sequelize, DataTypes) {
     });
 
   Employee.associate = function(models) {
+    // User model association
     Employee.belongsTo(models.User, {
       foreignKey: {
         allowNull: false
       }
     });
+    // User.hasOne(models.Employee);
+
+    // Store model association
+    Employee.belongsTo(models.Store);
+    // Store.hasMany(models.Employee);
   };
   return Employee;
 };
