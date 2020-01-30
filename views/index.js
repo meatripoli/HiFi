@@ -60,7 +60,7 @@ var render = function () {
                     </div>
                     <div class="card-footer">
                         <div class="d-flex justify-content-center links">
-                            <p class="noAccount">Don't have an account?<a href="#">Sign Up</a></p>
+                            <p class="noAccount">Don't have an account?<a href="/new">Sign Up</a></p>
                         </div>
                         <div class="d-flex justify-content-center">
                             <a href="#">Forgot your password?</a>
