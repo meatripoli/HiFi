@@ -1,14 +1,10 @@
 var db = require("../models");
+var index = require("../views/index.js");
 
 module.exports = function(app) {
   // Load index page
   app.get("/", function(req, res) {
-    db.Example.findAll({}).then(function(dbExamples) {
-      res.render("index", {
-        msg: "Welcome!",
-        examples: dbExamples
-      });
-    });
+    res.send(index.render());
   });
 
   // Load example page and pass in an example by id
