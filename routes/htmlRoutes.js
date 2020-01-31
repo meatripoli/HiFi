@@ -1,7 +1,7 @@
+const path = require("path");
 var db = require("../models");
 var index = require("../views/index.js");
 const search = require("../views/search.js");
-const path = require("path");
 
 module.exports = function(app) {
   // Load index page
