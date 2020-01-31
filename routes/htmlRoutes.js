@@ -16,13 +16,13 @@ module.exports = function(app) {
   
   // User create form
   app.get("/new", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/signup.html"));
+    res.sendFile(path.join(__dirname, "../public/html/signup.html"));
   })
 
 
   // Render 404 page for any unmatched routes
   app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/404.html"));
+    res.sendFile(path.join(__dirname, "../public/html/404.html"));
   });
 };
 
