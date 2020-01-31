@@ -1,16 +1,19 @@
 module.exports = function(sequelize, DataTypes) {
   const Album = sequelize.define("Album", {
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    year: {
+    Year: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    record_label: DataTypes.STRING,
-    new: DataTypes.BOOLEAN,
-    used: DataTypes.BOOLEAN
+    Album: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    Artist: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    Genre: DataTypes.STRING,
+    Subgenre: DataTypes.STRING
     });
 
     Album.associate = function(models) {
