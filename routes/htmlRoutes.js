@@ -1,5 +1,6 @@
 var db = require("../models");
 var index = require("../views/index.js");
+const search = require("../views/search.js");
 const path = require("path");
 
 module.exports = function(app) {
@@ -7,10 +8,17 @@ module.exports = function(app) {
   app.get("/", function(req, res) {
     res.send(index.render());
   });
+
+
+  app.get("/search", function(req, res) {
+    res.send(search.render());
+  });
+  
   // User create form
   app.get("/new", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/signup.html"));
   })
+
 
   // Render 404 page for any unmatched routes
   app.get("*", function(req, res) {
