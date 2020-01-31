@@ -1,4 +1,4 @@
-var render = function () {
+var render = function (modalContent) {
     return `
     <!DOCTYPE html>
     <html lang="en">
@@ -111,7 +111,7 @@ var render = function () {
         <!-- The Modal -->
         <div id="detailModal" class="modal">
             <div class="modal-content">
-                <p>Some text in the Modal..</p>
+                ${modalContent}
                 <button class="close">Close</button>
             </div>
             

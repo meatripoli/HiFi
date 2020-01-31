@@ -2,6 +2,7 @@ const path = require("path");
 var db = require("../models");
 var index = require("../views/index.js");
 const search = require("../views/search.js");
+const detail = require("../views/detail.js");
 
 module.exports = function(app) {
   // Load index page
@@ -11,7 +12,7 @@ module.exports = function(app) {
 
 
   app.get("/search", function(req, res) {
-    res.send(search.render());
+    res.send(search.render(detail.render()));
   });
   
   // User create form
