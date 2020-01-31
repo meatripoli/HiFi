@@ -19,6 +19,10 @@ body {
   margin-bottom: auto;
   width: 400px;
   background-color: white;
+  -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
+  -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
+  box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
+  border-radius: 10px;
 }
 
 .facebookIcon {
