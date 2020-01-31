@@ -1,13 +1,10 @@
 module.exports = function(sequelize, DataTypes) {
     const Artist = sequelize.define("Artist", {
-      first_name: {
+      Name: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      last_name: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
+      
       year: {
         type: DataTypes.INTEGER,
         allowNull: false,
