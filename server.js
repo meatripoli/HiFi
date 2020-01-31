@@ -20,7 +20,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Routes
-require("./routes/apiRoutes")(app);
+require("./routes/authenticate_api_routes")(app);
 require("./routes/htmlRoutes")(app);
 require("./routes/employee_api_routes")(app);
 require("./routes/store_api_routes")(app);
