@@ -2,8 +2,8 @@ const db = require('../models');
 
 module.exports = function(app) {
   app.get("api/albums", function(req, res) {
-    db.Album.findAll().then( data => {
-      res.json(data);
+    db.Album.findAll().then( album => {
+      res.json(album);
     });
   });
 

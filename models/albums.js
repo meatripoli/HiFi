@@ -19,17 +19,17 @@ module.exports = function(sequelize, DataTypes) {
           allowNull: false
         }
       });
-    Album.belongsTo(models.Store, { 
-      through: Album ,
-      foreignKey: {
-        allowNull: false
-      }
-    });
-    Album.hasMany(models.Review,{
-      foreignKey: {
-        allowNull: false
-      }
-    });
-  };
+      Album.belongsTo(models.Store, { 
+        through: Album ,
+        foreignKey: {
+          allowNull: false
+        }
+      });
+      Album.hasMany(models.Review,{
+        foreignKey: {
+          allowNull: false
+        }
+      });
+    };
   return Album;
 };
