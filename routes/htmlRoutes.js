@@ -1,11 +1,11 @@
 var db = require("../models");
-const login = require("../views/index.js");
+var index = require("../views/index.js");
 const search = require("../views/search.js");
 
 module.exports = function(app) {
   // Load index page
   app.get("/", function(req, res) {
-    res.send(login.render());
+    res.send(index.render());
   });
 
   app.get("/search", function(req, res) {
