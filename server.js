@@ -23,7 +23,7 @@ app.use(passport.session());
 require("./routes/authenticate_api_routes")(app);
 require("./routes/employee_api_routes")(app);
 require("./routes/store_api_routes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/html-routes")(app);
 
 var syncOptions = { force: false };
 
