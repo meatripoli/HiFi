@@ -75,7 +75,7 @@ var render = function (modalContent) {
             <div class="row">
                 <div class="col-lg-12">
                     <table class="table table-striped">
-                        <thead>
+                        <thead class="searchTHead">
                             <tr>
                                 <th>Album</th>
                                 <th>Artist</th>
