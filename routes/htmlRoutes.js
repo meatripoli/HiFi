@@ -12,6 +12,8 @@ const signupPage = require("../views/signup");
 const search = require("../views/search.js");
 const detail = require("../views/detail.js");
 
+// THIS FILE IS NO LONGER BEING REQUIRED IN OUR server.js
+// The file being called is html-routes
 
 module.exports = function(app) {
 
