@@ -17,22 +17,6 @@ var render = function (modalContent) {
     </head>
 
     <body>
-
-        <div class="container-fluid searchHeader">
-            <div class="row">
-                <div class="col-lg-2 logo">
-                    <img src="../img/hifi-logo.png" alt="logo" class="hifiLogo">
-                </div>
-                <div class="col-lg-9 searchBar">
-                    <div class="active-pink-3 active-pink-4 mb-4 input-group">
-                        <input class="form-control" id="textBox" type="text" placeholder="Search for album..."
-                            aria-label="Search">
-                        <button class="searchButton" type="submit"><i class="fas fa-search magGlass"
-                                aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="container-fluid paginationCont">
             <div class="row">
                 <div class="col-lg-12">
