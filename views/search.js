@@ -107,6 +107,7 @@ var render = function (modalContent) {
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- The Modal -->
         <div id="detailModal" class="modal">
