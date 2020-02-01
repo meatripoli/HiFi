@@ -35,11 +35,16 @@ module.exports = function(app) {
 
   // User create form
   app.get("/new", function(req, res) {
+<<<<<<< HEAD
     if (req.user) {
       res.redirect("/search");
     }
     res.send(nonAuthLayout.render(signupPage.render()));
   })
+=======
+    res.sendFile(path.join(__dirname, "../public/html/signup.html"));
+  });
+>>>>>>> fixed issue with my get request not working
 
   // Render 404 page for any unmatched routes
   app.get("*", function(req, res) {
