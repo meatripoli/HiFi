@@ -20,22 +20,13 @@ app.use(express.static("public"));
 // app.use(passport.session());
 
 // Routes
-<<<<<<< HEAD
 require("./routes/authenticate_api_routes")(app);
-=======
-require("./routes/apiRoutes")(app);
->>>>>>> fixed issue with my get request not working
 require("./routes/employee_api_routes")(app);
 require("./routes/store_api_routes")(app);
 require("./routes/album_api_route")(app);
 require("./routes/review_api_route")(app);
 require("./routes/stock_api_route")(app);
-<<<<<<< HEAD
 require("./routes/html-routes")(app);
-=======
-require("./routes/htmlRoutes")(app);
-
->>>>>>> fixed issue with my get request not working
 
 var syncOptions = { force: false };
 
