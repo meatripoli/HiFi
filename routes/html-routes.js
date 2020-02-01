@@ -35,12 +35,12 @@ module.exports = function(app) {
     }
     res.send(nonAuthLayout.render(signupPage.render()));
   })
-  
+
   // Authenticated routes - only /search is authenticated rn
   app.get("/search", isAuthenticated, function(req, res) {
     res.send(authLayout.render(search.render(detail.render())));
   });
-  
+
   app.get("/employee", function(req, res) {
     res.send(authLayout.render(req.user));
   });
@@ -49,4 +49,4 @@ module.exports = function(app) {
   app.get("*", function(req, res) {
     res.send(nonAuthLayout.render(notFound.render()));
   });
-};  
+};
