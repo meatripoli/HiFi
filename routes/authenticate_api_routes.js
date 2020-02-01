@@ -9,7 +9,7 @@ module.exports = function(app) {
   });
   // USER create (signup) req.body => email, password
   app.post("/api/users", function(req, res) {
-    db.User.create({
+    db.user.create({
       email: req.body.email,
       password: req.body.password
     })
@@ -23,14 +23,14 @@ module.exports = function(app) {
 
   // USER => authenticated route to see all created users
   app.get("/api/secret/users", passport.authenticate("local"), function(req, res) {
-    db.User.findAll().then( users => {
+    db.user.findAll().then( users => {
       res.json(users);
     });
   });
 
   // USER => NON authenticated route to see all created users
   app.get("/api/users", function(req, res) {
-    db.User.findAll().then( users => {
+    db.user.findAll().then( users => {
       res.json(users);
     });
   });
