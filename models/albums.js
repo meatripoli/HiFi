@@ -17,11 +17,7 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     Album.associate = function(models) {
-      Album.belongsTo(models.Artist, {
-        foreignKey: {
-          allowNull: false
-        }
-      });
+      
       Album.belongsTo(models.Store, { 
         through: Album ,
         foreignKey: {
