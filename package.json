@@ -8,7 +8,7 @@
     "lint": "eslint --quiet .",
     "fix": "eslint --fix .",
     "test": "npm run lint && cross-env NODE_ENV=test mocha -u tdd --reporter spec --exit",
-    "seed": "node seedFiles/seeds.js"
+    "seed": "node data/seeds.js"
   },
   "license": "ISC",
   "dependencies": {
