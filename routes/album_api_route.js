@@ -13,4 +13,12 @@ module.exports = function(app) {
         res.json(album);
       });
     });
+
+    app.post("/search", function(req, res) {
+      console.log(req.body.searchInput);
+      //below will be the code that searches the Album table for all albums called [req.body.searchInput]
+      // db.Album.create(req.body).then( album => {
+      //   res.json(album);
+      // });
+    });
 };

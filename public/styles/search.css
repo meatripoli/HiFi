@@ -262,6 +262,8 @@ thead {
 
   .close {
       float: right;
+      height: 15px;
+      width: 15px;
   }
 
   .albumCoverPic {
