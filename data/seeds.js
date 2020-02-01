@@ -8,7 +8,7 @@ var db = require("../models");
 // todo: create storelist, employeelist, stocklist, reviewlist json files; can then uncomment
 
 var userlist = require("./userlist.json");
-// var storelist = require("./storelist.json");
+var storelist = require("./storelist.json");
 var albumlist = require("./albumlist.json");
 // var employeelist = require("./employeelist.json");
 // var stocklist = require("./stocklist.json");
@@ -18,9 +18,9 @@ db.sequelize.sync().then(function() {
   db.user.bulkCreate(userlist);
 });
 
-// db.sequelize.sync().then(function() {
-//   db.user.bulkCreate(storelist);
-// });
+db.sequelize.sync().then(function() {
+  db.user.bulkCreate(storelist);
+});
 
 db.sequelize.sync().then(function() {
   db.album.bulkCreate(albumlist);
