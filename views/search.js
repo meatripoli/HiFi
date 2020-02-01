@@ -75,30 +75,30 @@ var render = function (modalContent) {
             <div class="row">
                 <div class="col-lg-12">
                     <table class="table table-striped">
-                        <thead class="searchTHead">
+                        <thead>
                             <tr>
-                                <th>Artist</th>
                                 <th>Album</th>
+                                <th>Artist</th>
                                 <th>Release Year</th>
                                 <th>Rating</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><a href="" class="search-link">Michael Jackson</a></td>
                                 <td><a href="" class="search-link">Thriller</a></td>
+                                <td><a href="" class="search-link">Michael Jackson</a></td>                           
                                 <td>1982</td>
                                 <td>*****</td>
                             </tr>
                             <tr>
-                                <td><a href="" class="search-link">Killswitch Engage</a></td>
                                 <td><a href="" class="search-link">The End of Heartache</a></td>
+                                <td><a href="" class="search-link">Killswitch Engage</a></td>                            
                                 <td>2004</td>
                                 <td>***</td>
                             </tr>
                             <tr>
-                                <td><a href="" class="search-link">Nas</a></td>
                                 <td><a href="" class="search-link">Stillmatic</a></td>
+                                <td><a href="" class="search-link">Nas</a></td>
                                 <td>2001</td>
                                 <td>****</td>
                             </tr>
@@ -123,6 +123,7 @@ var render = function (modalContent) {
             integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="../js/app.js"></script>
+        <script src="../js/search.js"></script>
     </body>
 
     </html>

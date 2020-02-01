@@ -24,6 +24,10 @@ require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 require("./routes/employee_api_routes")(app);
 require("./routes/store_api_routes")(app);
+require("./routes/album_api_route")(app);
+require("./routes/review_api_route")(app);
+require("./routes/stock_api_route")(app);
+
 
 var syncOptions = { force: false };
 
