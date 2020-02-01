@@ -224,6 +224,7 @@ button span:before, button span:after
 
 table {
     text-align: center;
+    overflow-y: auto;
 }
 
 thead {
@@ -247,13 +248,41 @@ thead {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: auto auto; */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 20px;
   }
 
   .close {
       float: right;
+  }
+
+  .albumCoverPic {
+      text-align: center;
+  }
+
+  .albumInfoList {
+      list-style-type: none;
+      line-height: 50px;
+      font-size: 30px;
+      margin-top: 25px;
+  }
+
+  .classic-tabs {
+      padding-top: 20px;
+  }
+
+  /* .nav-item {
+      background-color: #de6a50;
+  } */
+
+  .nav-link {
+      color: black;
   }
