@@ -4,6 +4,7 @@ const render = function(body) {
   <html lang="en">
   
   <head>
+
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,6 +15,7 @@ const render = function(body) {
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <script src="https://kit.fontawesome.com/96ca6c3009.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="../styles/search.css">
+
   </head>
   
   <body>
@@ -23,7 +25,7 @@ const render = function(body) {
               <div class="col-lg-2 logo">
                   <img src="../img/hifi-logo.png" alt="logo" class="hifiLogo">
               </div>
-              <div class="col-lg-6 searchBar">
+              <div class="col-lg-8 searchBar">
                   <div class="active-pink-3 active-pink-4 mb-4 input-group">
                       <input class="form-control" id="textBox" type="text" placeholder="Search for album..."
                           aria-label="Search">
@@ -31,14 +33,19 @@ const render = function(body) {
                               aria-hidden="true"></i></button>
                   </div>
               </div>
-              <div class="nav-links">
-                  <a href="/employee">Employee</a>
-                  <a href="/logout"> Logout</a>
-              </div>
+                  <div class="col-lg-2 wrapper">
+					<div id="dd" class="wrapper-dropdown-5" tabindex="1">John Doe
+						<ul class="dropdown">
+							<li><a href="/employee"><i class="fas fa-user"></i>          My Account</a></li>
+							<li><a href="/logout"><i class="fas fa-door-closed"></i>          Log out</a></li>
+						</ul>
+					</div>
+				​</div>
           </div>
       </div>
-    ${body}
+      ${body}
   </body>
+  
   </html>
   `
 };
