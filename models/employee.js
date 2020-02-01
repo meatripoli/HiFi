@@ -9,11 +9,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    address1: DataTypes.CHAR(50),
-    address2: DataTypes.CHAR(20),
-    city: DataTypes.STRING,
-    state: DataTypes.STRING,
-    zip_code: DataTypes.INTEGER(5),
+    
     fav_album: DataTypes.STRING,
     });
 
