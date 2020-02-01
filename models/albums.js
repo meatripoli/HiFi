@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-  const Album = sequelize.define("Album", {
+  const Album = sequelize.define("album", {
     Year: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -16,19 +16,20 @@ module.exports = function(sequelize, DataTypes) {
     Subgenre: DataTypes.STRING
     });
 
-    Album.associate = function(models) {
+    // Album.associate = function(models) {
       
-      Album.belongsTo(models.Store, { 
-        through: Album ,
-        foreignKey: {
-          allowNull: false
-        }
-      });
-      Album.hasMany(models.Review,{
-        foreignKey: {
-          allowNull: false
-        }
-      });
-    };
+    //   Album.belongsTo(models.Store, { 
+    //     through: Album ,
+    //     foreignKey: {
+    //       allowNull: false,
+    //       defaultValue: 1
+    //     }
+    //   });
+    //   Album.hasMany(models.Review,{
+    //     foreignKey: {
+    //       allowNull: false
+    //     }
+    //   });
+    // };
   return Album;
 };
