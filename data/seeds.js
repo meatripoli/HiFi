@@ -3,9 +3,10 @@
 
 require("dotenv").config();
 var db = require("../models");
-
+var employeelist = require("./employeelist.json");
+var storelist = require("./storelist.json")
 var userlist = require("./userlist.json");
-// var albumlist = require("./albumlist.json");
+var albumlist = require("./albumlist.json");
 
 db.sequelize.sync().then(function() {
   db.User.bulkCreate(userlist);

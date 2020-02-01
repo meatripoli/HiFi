@@ -1,0 +1,290 @@
+[
+    {
+      "ID": 1,
+      "First_Name": "Esteban",
+      "Last_Name": "Garces",
+      "Username": "Esteban_Garces",
+      "Password": "PurpleCats472",
+      "Fav_Album": "My Beautiful Dark Twisted Fantasy"
+    },
+    {
+      "ID": 2,
+      "First_Name": "Tony",
+      "Last_Name": "Soprano",
+      "Username": "Tony_Soprano",
+      "Password": "MeatballMania3413",
+      "Fav_Album": "Michael Bublé"
+    },
+    {
+      "ID": 3,
+      "First_Name": "Abigail",
+      "Last_Name": "Roach",
+      "Username": "Abigail_Roach",
+      "Password": "OffTheroof3940",
+      "Fav_Album": "Live in Cook County Jail"
+    },
+    {
+      "ID": 4,
+      "First_Name": "Tina",
+      "Last_Name": "Seabolt",
+      "Username": "Tina_Seabolt",
+      "Password": "figgynewman1946",
+      "Fav_Album": "Yankee Hotel Foxtrot"
+    },
+    {
+      "ID": 5,
+      "First_Name": "Juan",
+      "Last_Name": "Scott",
+      "Username": "Juan_Scott",
+      "Password": "Brequir204",
+      "Fav_Album": "That's the Way of the World"
+    },
+    {
+      "ID": 6,
+      "First_Name": "Frank",
+      "Last_Name": "Palmer",
+      "Username": "Frank_Palmer",
+      "Password": "Forepainely",
+      "Fav_Album": "Voodoo"
+    },
+    {
+      "ID": 7,
+      "First_Name": "Cynthia",
+      "Last_Name": "Wade",
+      "Username": "Cynthia_Wade",
+      "Password": "Greyguit@rs",
+      "Fav_Album": "Maggot Brain"
+    },
+    {
+      "ID": 8,
+      "First_Name": "Joyce",
+      "Last_Name": "Myers",
+      "Username": "Joyce_Myers",
+      "Password": "berkuZun560",
+      "Fav_Album": "Life After Death"
+    },
+    {
+      "ID": 9,
+      "First_Name": "Donald",
+      "Last_Name": "Bailes",
+      "Username": "Donald_Bailes",
+      "Password": "Thabould770",
+      "Fav_Album": "The Smiths"
+    },
+    {
+      "ID": 10,
+      "First_Name": "Lindsay",
+      "Last_Name": "Martines",
+      "Username": "Lindsay_Martines",
+      "Password": "Brilivele089",
+      "Fav_Album": "The Score"
+    },
+    {
+      "ID": 11,
+      "First_Name": "Jacob",
+      "Last_Name": "Howard",
+      "Username": "Jacob_Howard",
+      "Password": "Turnipseed75",
+      "Fav_Album": "Tunnel of Love"
+    },
+    {
+      "ID": 12,
+      "First_Name": "Michele",
+      "Last_Name": "Owen",
+      "Username": "Michele_Owen",
+      "Password": "Canche9019",
+      "Fav_Album": "A Rush of Blood to the Head"
+    },
+    {
+      "ID": 13,
+      "First_Name": "Edward",
+      "Last_Name": "Briggs",
+      "Username": "Edward_Briggs",
+      "Password": "Histe1994",
+      "Fav_Album": "Tumbleweed Connection"
+    },
+    {
+      "ID": 14,
+      "First_Name": "Lorene",
+      "Last_Name": "Raiford",
+      "Username": "Auntithe511",
+      "Password": "How Will the Wold Survive",
+      "Fav_Album": ""
+    },
+    {
+      "ID": 15,
+      "First_Name": "Carolyn",
+      "Last_Name": "Lamarre",
+      "Username": "Lorene_Lamarre",
+      "Password": "Ponim1979",
+      "Fav_Album": "Back to Black"
+    },
+    {
+      "ID": 16,
+      "First_Name": "Michael",
+      "Last_Name": "Berk",
+      "Username": "Michael_Berk",
+      "Password": "Twel194B",
+      "Fav_Album": "Synchronicity"
+    },
+    {
+      "ID": 17,
+      "First_Name": "John",
+      "Last_Name": "Barrett",
+      "Username": "John_Barrett",
+      "Password": "Priong53",
+      "Fav_Album": "Fly Like an Eagle"
+    },
+    {
+      "ID": 18,
+      "First_Name": "Brian",
+      "Last_Name": "Noack",
+      "Username": "Brian_Noack",
+      "Password": "iYeiquai2rie",
+      "Fav_Album": "The World is a Ghetto"
+    },
+    {
+      "ID": 19,
+      "First_Name": "Emma",
+      "Last_Name": "Thurber",
+      "Username": "Emma_Thurber",
+      "Password": "Ieba8Ees",
+      "Fav_Album": "Q: Are We Not Men? A: We Are Devo!"
+    },
+    {
+      "ID": 20,
+      "First_Name": "Lona",
+      "Last_Name": "Heath",
+      "Username": "Lona_Heath",
+      "Password": "Tund1980",
+      "Fav_Album": "Live At The Harlem Square Club 1963"
+    },
+    {
+      "ID": 21,
+      "First_Name": "Terrence",
+      "Last_Name": "Young",
+      "Username": "Terrence_Young",
+      "Password": "Su8oS4ip",
+      "Fav_Album": "Tha Carter III"
+    },
+    {
+      "ID": 22,
+      "First_Name": "Alfredo",
+      "Last_Name": "Crawford",
+      "Username": "Alfredo_Crawford",
+      "Password": "tugeiC0uCe",
+      "Fav_Album": "In Utero"
+    },
+    {
+      "ID": 23,
+      "First_Name": "William",
+      "Last_Name": "Noonkester",
+      "Username": "William_Noonkester",
+      "Password": "aipheeKee3",
+      "Fav_Album": "All Things Must Pass"
+    },
+    {
+      "ID": 24,
+      "First_Name": "Vernon",
+      "Last_Name": "Dupre",
+      "Username": "Vernon_Dupre",
+      "Password": "ahlae0eeQu7oo",
+      "Fav_Album": "Van Halen"
+    },
+    {
+      "ID": 25,
+      "First_Name": "Nora",
+      "Last_Name": "Terry",
+      "Username": "Nora_Terry",
+      "Password": "aegh7Aiqu",
+      "Fav_Album": "Time Out of Mind"
+    },
+    {
+      "ID": 26,
+      "First_Name": "Florence",
+      "Last_Name": "Roche",
+      "Username": "Florence_Roche",
+      "Password": "Quaex9oy",
+      "Fav_Album": "I Do Not Want What I haven’t Got"
+    },
+    {
+      "ID": 27,
+      "First_Name": "Ronald",
+      "Last_Name": "Clark",
+      "Username": "Ronald_Clark",
+      "Password": "Ohsh4coo",
+      "Fav_Album": "Radio City"
+    },
+    {
+      "ID": 28,
+      "First_Name": "William",
+      "Last_Name": "Rhodes",
+      "Username": "William_Rhodes",
+      "Password": "miek3shiL",
+      "Fav_Album": "(Pronounced Leh-Nerd Skin-Nerd)"
+    },
+    {
+      "ID": 29,
+      "First_Name": "Leona",
+      "Last_Name": "Giron",
+      "Username": "Leona_Giron",
+      "Password": "jah0Iugei6z",
+      "Fav_Album": "Illmatic"
+    },
+    {
+      "ID": 30,
+      "First_Name": "Rory",
+      "Last_Name": "Moore",
+      "Username": "Rory_Moore",
+      "Password": "Sheeh4Uoxe",
+      "Fav_Album": "Pretzel Logic"
+    },
+    {
+      "ID": 31,
+      "First_Name": "Kimberly",
+      "Last_Name": "Gregory",
+      "Username": "Kimberly_Gregory",
+      "Password": "chei2aitai6Fo",
+      "Fav_Album": "Kala"
+    },
+    {
+      "ID": 32,
+      "First_Name": "Rosetta",
+      "Last_Name": "Hyler",
+      "Username": "Rosetta_Hyler",
+      "Password": "TeF1ieghon7",
+      "Fav_Album": "Let It Be"
+    },
+    {
+      "ID": 33,
+      "First_Name": "John",
+      "Last_Name": "Cote",
+      "Username": "John_Cote",
+      "Password": "oht5ooQu8",
+      "Fav_Album": "Elephant"
+    },
+    {
+      "ID": 34,
+      "First_Name": "Christopher",
+      "Last_Name": "Smith",
+      "Username": "Christopher_Smith",
+      "Password": "ohjoh7Ui",
+      "Fav_Album": "Enter the Wu-Tang: 36 Chambers"
+    },
+    {
+      "ID": 35,
+      "First_Name": "Keven",
+      "Last_Name": "Cowen",
+      "Username": "Keven_Cowen",
+      "Password": "Hied1955",
+      "Fav_Album": "Funky Kingston"
+    },
+    {
+      "ID": 36,
+      "First_Name": "Julie",
+      "Last_Name": "Tourville",
+      "Username": "Julie_Tourville",
+      "Password": "apeiR6ahz",
+      "Fav_Album": "Post"
+    }
+  ]
