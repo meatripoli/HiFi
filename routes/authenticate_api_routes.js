@@ -1,29 +1,45 @@
 const db = require("../models");
-var passport = require("../config/passport");
+const passport = require("../config/passport");
 
 
 module.exports = function(app) {
-
+  // USER login
   app.post("/api/login", passport.authenticate("local"), function(req, res) {
     res.json(req.user);
   });
-  // USER => Api routes
-  app.get("/api/secret/users", function(req, res) {
+  // USER create (signup) req.body => email, password
+  app.post("/api/new", function(req, res) {
+    db.User.create({
+      email: req.body.email,
+      password: req.body.password
+    })
+      .then(function() {
+        res.redirect(307, "/api/login");
+      })
+      .catch(function(err) {
+        res.status(401).json(err);
+      });
+  });
+
+  // USER => authenticated route to see all created users
+  app.get("/api/secret/users", passport.authenticate("local"), function(req, res) {
     db.User.findAll().then( users => {
       res.json(users);
     });
   });
-  // req.body => email, password
-  app.post("/api/users", function(req, res) {
-    db.User.create(req.body).then( user => {
-      res.json(user);
+
+  // USER => NON authenticated route to see all created users
+  app.get("/api/users", function(req, res) {
+    db.User.findAll().then( users => {
+      res.json(users);
     });
   });
   
-  // Delete an example by id
-  // app.delete("/api/examples/:id", function(req, res) {
-  //   db.Example.destroy({ where: { id: req.params.id } }).then(function(dbExample) {
-  //     res.json(dbExample);
-  //   });
-  // });
+  // USER logout
+  // logout() method provided by Passport http://www.passportjs.org/docs/logout/
+    app.get("/logout", function(req, res) {
+      req.logout();
+      res.send("Logged out");
+    });
+  
 };
