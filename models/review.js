@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    const Review = sequelize.define("Review", {
+    const Review = sequelize.define("review", {
       title: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -11,12 +11,12 @@ module.exports = function(sequelize, DataTypes) {
     });
   
     Review.associate = function(models) {
-      Review.belongsTo(models.Album, {
+      Review.belongsTo(models.album, {
         foreignKey: {
           allowNull: false
         }
       });
-      Review.belongsTo(models.Employee, {
+      Review.belongsTo(models.employee, {
         foreignKey: {
           allowNull: false
         }
