@@ -2,16 +2,16 @@
 
 $(".searchButton").on("click", function(event) {
     event.preventDefault();
-    let newObj = {
-      searchInput: $("#textBox").val()
-    };
-    console.log(newObj)
+    
+      var searchInput= $("#textBox").val()
+
+    console.log(searchInput)
     $.ajax({
-      type: "POST",
-      url: "/search",
-      data: newObj
+      type: "GET",
+      url: `/api/albums/${searchInput}`
     }).then(function(data) {
-      console.log(data);
+        console.log("inside client get req")
+      //console.log(data);
     });
   });
   

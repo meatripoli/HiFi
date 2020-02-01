@@ -13,11 +13,11 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Use sessions to keep track of our user's login status
-app.use(
-  session({ secret: "keyboard kitten", resave: true, saveUninitialized: true })
-);
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(
+//   session({ secret: "keyboard kitten", resave: true, saveUninitialized: true })
+// );
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 // Routes
 require("./routes/authenticate_api_routes")(app);
