@@ -1,10 +1,13 @@
 const db = require('../models');
 
 module.exports = function(app) {
-  app.get("api/albums", function(req, res) {
-    db.Album.findAll().then( album => {
-      res.json(album);
-    });
+  app.get("/api/albums/:album", function(req, res) {
+    console.log("inside server get req")
+    console.log(req.params.album);
+    //below will be the code that searches the Album table for all albums called [req.body.searchInput]
+    // db.Album.findAll().then( album => {
+    //   res.json(album);
+    // });
   });
 
     // req.body => first_name, last_name, address1, address2, 

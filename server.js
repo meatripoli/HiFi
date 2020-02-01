@@ -13,17 +13,20 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Use sessions to keep track of our user's login status
-app.use(
-  session({ secret: "keyboard kitten", resave: true, saveUninitialized: true })
-);
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(
+//   session({ secret: "keyboard kitten", resave: true, saveUninitialized: true })
+// );
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 // Routes
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/authenticate_api_routes")(app);
 require("./routes/employee_api_routes")(app);
 require("./routes/store_api_routes")(app);
+require("./routes/album_api_route")(app);
+require("./routes/review_api_route")(app);
+require("./routes/stock_api_route")(app);
+require("./routes/html-routes")(app);
 
 var syncOptions = { force: false };
 

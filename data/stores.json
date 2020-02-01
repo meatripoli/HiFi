@@ -1,0 +1,50 @@
+[
+    {
+      "ID": 1,
+      "Name": "HiFi @ Hoover",
+      "Address1": "2002 Manor Rd",
+      "Address2": "NULL",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": 78722,
+      "Phone": 5124834593,
+      "Hour_Open": 8,
+      "Hour_Close": 8
+    },
+    {
+      "ID": 2,
+      "Name": "Hifi @ Relic",
+      "Address1": "1720 S 1st",
+      "Address2": "NULL",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": 78704,
+      "Phone": 5128473620,
+      "Hour_Open": 8,
+      "Hour_Close": 8
+    },
+    {
+      "ID": 3,
+      "Name": "Hifi @ Mel's",
+      "Address1": "1010 N Austin Ave.",
+      "Address2": "NULL",
+      "City": "Georgetown",
+      "State": "TX",
+      "Zip": 78626,
+      "Phone": 5124309823,
+      "Hour_Open": 9,
+      "Hour_Close": 9
+    },
+    {
+      "ID": 4,
+      "Name": "Hifi @ Blue Velvet",
+      "Address1": "217 W N Loop Blvd",
+      "Address2": "NULL",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": 78751,
+      "Phone": 5123409748,
+      "Hour_Open": 8,
+      "Hour_Close": 8
+    }
+  ]
