@@ -11,6 +11,7 @@ const loginPage = require("../views/login");
 const signupPage = require("../views/signup");
 const search = require("../views/search.js");
 const notFound = require("../views/404.js");
+const detail = require("../views/detail.js");
 
 module.exports = function(app) {
 
@@ -37,7 +38,7 @@ module.exports = function(app) {
   
   // Authenticated routes - only /search is authenticated rn
   app.get("/search", isAuthenticated, function(req, res) {
-    res.send(authLayout.render(search.render()));
+    res.send(authLayout.render(search.render(detail.render())));
   });
   
   app.get("/employee", function(req, res) {
