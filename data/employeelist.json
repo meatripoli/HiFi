@@ -1,182 +1,211 @@
-[
-    {
-      "first_name": "Esteban",
-      "last_name": "Garces",
-      "fav_album": "My Beautiful Dark Twisted Fantasy"
-    },
-    {
-      "first_name": "Tony",
-      "last_name": "Soprano",
-      "fav_album": "Michael Bublé"
-    },
-    {
-      "first_name": "Abigail",
-      "last_name": "Roach",
-      "fav_album": "Live in Cook County Jail"
-    },
-    {
-      "first_name": "Tina",
-      "last_name": "Seabolt",
-      "fav_album": "Yankee Hotel Foxtrot"
-    },
-    {
-      "first_name": "Juan",
-      "last_name": "Scott",
-      "fav_album": "That's the Way of the World"
-    },
-    {
-      "first_name": "Frank",
-      "last_name": "Palmer",
-      "fav_album": "Voodoo"
-    },
-    {
-      "first_name": "Cynthia",
-      "last_name": "Wade",
-      "fav_album": "Maggot Brain"
-    },
-    {
-      "first_name": "Joyce",
-      "last_name": "Myers",
-      "fav_album": "Life After Death"
-    },
-    {
-      "first_name": "Donald",
-      "last_name": "Bailes",
-      "fav_album": "The Smiths"
-    },
-    {
-      "first_name": "Lindsay",
-      "last_name": "Martines",
-      "fav_album": "The Score"
-    },
-    {
-      "first_name": "Jacob",
-      "last_name": "Howard",
-      "fav_album": "Tunnel of Love"
-    },
-    {
-      "first_name": "Michele",
-      "last_name": "Owen",
-      "fav_album": "A Rush of Blood to the Head"
-    },
-    {
-      "first_name": "Edward",
-      "last_name": "Briggs",
-      "fav_album": "Tumbleweed Connection"
-    },
-    {
-      "first_name": "Lorene",
-      "last_name": "Raiford",
-      "fav_album": ""
-    },
-    {
-      "first_name": "Carolyn",
-      "last_name": "Lamarre",
-      "fav_album": "Back to Black"
-    },
-    {
-      "first_name": "Michael",
-      "last_name": "Berk",
-      "fav_album": "Synchronicity"
-    },
-    {
-      "first_name": "John",
-      "last_name": "Barrett",
-      "fav_album": "Fly Like an Eagle"
-    },
-    {
-      "first_name": "Brian",
-      "last_name": "Noack",
-      "fav_album": "The World is a Ghetto"
-    },
-    {
-      "first_name": "Emma",
-      "last_name": "Thurber",
-      "fav_album": "Q: Are We Not Men? A: We Are Devo!"
-    },
-    {
-      "first_name": "Lona",
-      "last_name": "Heath",
-      "fav_album": "Live At The Harlem Square Club 1963"
-    },
-    {
-      "first_name": "Terrence",
-      "last_name": "Young",
-      "fav_album": "Tha Carter III"
-    },
-    {
-      "first_name": "Alfredo",
-      "last_name": "Crawford",
-      "fav_album": "In Utero"
-    },
-    {
-      "first_name": "William",
-      "last_name": "Noonkester",
-      "fav_album": "All Things Must Pass"
-    },
-    {
-      "first_name": "Vernon",
-      "last_name": "Dupre",
-      "fav_album": "Van Halen"
-    },
-    {
-      "first_name": "Nora",
-      "last_name": "Terry",
-      "fav_album": "Time Out of Mind"
-    },
-    {
-      "first_name": "Florence",
-      "last_name": "Roche",
-      "fav_album": "I Do Not Want What I haven’t Got"
-    },
-    {
-      "first_name": "Ronald",
-      "last_name": "Clark",
-      "fav_album": "Radio City"
-    },
-    {
-      "first_name": "William",
-      "last_name": "Rhodes",
-      "fav_album": "(Pronounced Leh-Nerd Skin-Nerd)"
-    },
-    {
-      "first_name": "Leona",
-      "last_name": "Giron",
-      "fav_album": "Illmatic"
-    },
-    {
-      "first_name": "Rory",
-      "last_name": "Moore",
-      "fav_album": "Pretzel Logic"
-    },
-    {
-      "first_name": "Kimberly",
-      "last_name": "Gregory",
-      "fav_album": "Kala"
-    },
-    {
-      "first_name": "Rosetta",
-      "last_name": "Hyler",
-      "fav_album": "Let It Be"
-    },
-    {
-      "first_name": "John",
-      "last_name": "Cote",
-      "fav_album": "Elephant"
-    },
-    {
-      "first_name": "Christopher",
-      "last_name": "Smith",
-      "fav_album": "Enter the Wu-Tang: 36 Chambers"
-    },
-    {
-      "first_name": "Keven",
-      "last_name": "Cowen",
-      "fav_album": "Funky Kingston"
-    },
-    {
-      "first_name": "Julie",
-      "last_name": "Tourville",
-      "fav_album": "Post"
-    }
-  ]
+[{
+    "first_name": "Maria",
+    "last_name": "Tripoli",
+    "fav_album": "Lemonade",
+    "userId": 1,
+    "storeId": 4
+  },
+  {
+    "first_name": "Alex",
+    "last_name": "Stevens",
+    "fav_album": "Yes Lawd!",
+    "userId": 2,
+    "storeId": 3
+  },
+  {
+    "first_name": "Esteban",
+    "last_name": "Garces",
+    "fav_album": "My Beautiful Dark Twisted Fantasy",
+    "userId": 3,
+    "storeId": 2
+  },
+  {
+    "first_name": "Farai",
+    "last_name": "Matangira",
+    "fav_album": "Reasonable Doubt",
+    "userId": 4,
+    "storeId": 3
+  },
+  {
+    "first_name": "Nelan",
+    "last_name": "Black",
+    "fav_album": "Kind of Blue",
+    "userId": 5,
+    "storeId": 4
+  },
+  {
+    "first_name": "Tony",
+    "last_name": "Soprano",
+    "fav_album": "Michael Bublé"
+  },
+  {
+    "first_name": "Abigail",
+    "last_name": "Roach",
+    "fav_album": "Live in Cook County Jail"
+  },
+  {
+    "first_name": "Tina",
+    "last_name": "Seabolt",
+    "fav_album": "Yankee Hotel Foxtrot"
+  },
+  {
+    "first_name": "Juan",
+    "last_name": "Scott",
+    "fav_album": "That's the Way of the World"
+  },
+  {
+    "first_name": "Frank",
+    "last_name": "Palmer",
+    "fav_album": "Voodoo"
+  },
+  {
+    "first_name": "Cynthia",
+    "last_name": "Wade",
+    "fav_album": "Maggot Brain"
+  },
+  {
+    "first_name": "Joyce",
+    "last_name": "Myers",
+    "fav_album": "Life After Death"
+  },
+  {
+    "first_name": "Donald",
+    "last_name": "Bailes",
+    "fav_album": "The Smiths"
+  },
+  {
+    "first_name": "Lindsay",
+    "last_name": "Martines",
+    "fav_album": "The Score"
+  },
+  {
+    "first_name": "Jacob",
+    "last_name": "Howard",
+    "fav_album": "Tunnel of Love"
+  },
+  {
+    "first_name": "Michele",
+    "last_name": "Owen",
+    "fav_album": "A Rush of Blood to the Head"
+  },
+  {
+    "first_name": "Edward",
+    "last_name": "Briggs",
+    "fav_album": "Tumbleweed Connection"
+  },
+  {
+    "first_name": "Lorene",
+    "last_name": "Raiford",
+    "fav_album": ""
+  },
+  {
+    "first_name": "Carolyn",
+    "last_name": "Lamarre",
+    "fav_album": "Back to Black"
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Berk",
+    "fav_album": "Synchronicity"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Barrett",
+    "fav_album": "Fly Like an Eagle"
+  },
+  {
+    "first_name": "Brian",
+    "last_name": "Noack",
+    "fav_album": "The World is a Ghetto"
+  },
+  {
+    "first_name": "Emma",
+    "last_name": "Thurber",
+    "fav_album": "Q: Are We Not Men? A: We Are Devo!"
+  },
+  {
+    "first_name": "Lona",
+    "last_name": "Heath",
+    "fav_album": "Live At The Harlem Square Club 1963"
+  },
+  {
+    "first_name": "Terrence",
+    "last_name": "Young",
+    "fav_album": "Tha Carter III"
+  },
+  {
+    "first_name": "Alfredo",
+    "last_name": "Crawford",
+    "fav_album": "In Utero"
+  },
+  {
+    "first_name": "William",
+    "last_name": "Noonkester",
+    "fav_album": "All Things Must Pass"
+  },
+  {
+    "first_name": "Vernon",
+    "last_name": "Dupre",
+    "fav_album": "Van Halen"
+  },
+  {
+    "first_name": "Nora",
+    "last_name": "Terry",
+    "fav_album": "Time Out of Mind"
+  },
+  {
+    "first_name": "Florence",
+    "last_name": "Roche",
+    "fav_album": "I Do Not Want What I haven’t Got"
+  },
+  {
+    "first_name": "Ronald",
+    "last_name": "Clark",
+    "fav_album": "Radio City"
+  },
+  {
+    "first_name": "William",
+    "last_name": "Rhodes",
+    "fav_album": "(Pronounced Leh-Nerd Skin-Nerd)"
+  },
+  {
+    "first_name": "Leona",
+    "last_name": "Giron",
+    "fav_album": "Illmatic"
+  },
+  {
+    "first_name": "Rory",
+    "last_name": "Moore",
+    "fav_album": "Pretzel Logic"
+  },
+  {
+    "first_name": "Kimberly",
+    "last_name": "Gregory",
+    "fav_album": "Kala"
+  },
+  {
+    "first_name": "Rosetta",
+    "last_name": "Hyler",
+    "fav_album": "Let It Be"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Cote",
+    "fav_album": "Elephant"
+  },
+  {
+    "first_name": "Christopher",
+    "last_name": "Smith",
+    "fav_album": "Enter the Wu-Tang: 36 Chambers"
+  },
+  {
+    "first_name": "Keven",
+    "last_name": "Cowen",
+    "fav_album": "Funky Kingston"
+  },
+  {
+    "first_name": "Julie",
+    "last_name": "Tourville",
+    "fav_album": "Post"
+  }
+]
