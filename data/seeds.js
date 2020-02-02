@@ -10,8 +10,8 @@ var db = require("../models");
 var userlist = require("./userlist.json");
 var storelist = require("./storelist.json");
 var albumlist = require("./albumlist.json");
-// var employeelist = require("./employeelist.json");
-// var stocklist = require("./stocklist.json");
+var employeelist = require("./employeelist.json");
+var stocklist = require("./stocklist.json");
 // var reviewlist = require("./reviewlist.json");
 
 db.sequelize.sync().then(function() {
@@ -26,13 +26,13 @@ db.sequelize.sync().then(function() {
   db.album.bulkCreate(albumlist);
 });
 
-// db.sequelize.sync().then(function() {
-//   db.employee.bulkCreate(employeelist);
-// });
+db.sequelize.sync().then(function() {
+  db.employee.bulkCreate(employeelist);
+});
 
-// db.sequelize.sync().then(function() {
-//   db.stock.bulkCreate(stocklist);
-// });
+db.sequelize.sync().then(function() {
+  db.stock.bulkCreate(stocklist);
+});
 
 // db.sequelize.sync().then(function() {
 //   db.review.bulkCreate(reviewlist);

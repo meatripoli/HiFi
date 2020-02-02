@@ -13,16 +13,21 @@ module.exports = function(sequelize, DataTypes) {
     fav_album: DataTypes.STRING,
     });
 
+    // Stock.associate = function (models) {
+    //   models.album.belongsToMany(models.store, { through: models.stock })
+    //   models.store.belongsToMany(models.album, { through: models.stock });
+    // };
+  
   Employee.associate = function(models) {
     // User model association
     Employee.belongsTo(models.user, {
       foreignKey: {
-        allowNull: false
+        allowNull: true
       }
     });
     Employee.belongsTo(models.store, {
       foreignKey: {
-        allowNull: false
+        allowNull: true
       }
     });
     models.user.hasOne(models.employee, {
