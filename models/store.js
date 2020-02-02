@@ -1,28 +1,27 @@
 module.exports = function(sequelize, DataTypes) {
   
   const Store = sequelize.define("store", {
-    name: {
+    Name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    address1: DataTypes.CHAR(50),
-    address2: DataTypes.CHAR(20),
-    city: DataTypes.STRING,
-    state: DataTypes.STRING,
-    zip_code: {
+    Address1: DataTypes.CHAR(50),
+    Address2: DataTypes.CHAR(20),
+    City: DataTypes.STRING,
+    State: DataTypes.STRING,
+    Zip_code: {
         type: DataTypes.INTEGER,
         len: [5],
     },
-    phone: {
-      type: DataTypes.INTEGER,
-      len: [10]
+    Phone: {
+      type: DataTypes.STRING
     },
-    hour_open: {
+    Hour_open: {
       type: DataTypes.INTEGER,
       allowNull: false,
       len: [2],
     },
-    hour_close: {
+    Hour_close: {
       type: DataTypes.INTEGER,
       allowNull: false,
       len: [2],
