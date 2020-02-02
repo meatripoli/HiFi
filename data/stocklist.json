@@ -1,0 +1,202 @@
+[
+    {
+        "stock": 10,
+        "storeId": 1,
+        "albumId": 1
+    },
+    {
+        "stock": 6,
+        "storeId": 1,
+        "albumId": 2
+    },
+    {
+        "stock": 8,
+        "storeId": 1,
+        "albumId": 3
+    },
+    {
+        "stock": 12,
+        "storeId": 1,
+        "albumId": 4
+    },
+    {
+        "stock": 3,
+        "storeId": 1,
+        "albumId": 5
+    },
+    {
+        "stock": 1,
+        "storeId": 1,
+        "albumId": 6
+    },
+    {
+        "stock": 5,
+        "storeId": 1,
+        "albumId": 7
+    },
+    {
+        "stock": 4,
+        "storeId": 1,
+        "albumId": 8
+    },
+    {
+        "stock": 7,
+        "storeId": 1,
+        "albumId": 9
+    },
+    {
+        "stock": 9,
+        "storeId": 1,
+        "albumId": 10
+    },
+    {
+        "stock": 10,
+        "storeId": 2,
+        "albumId": 1
+    },
+    {
+        "stock": 6,
+        "storeId": 2,
+        "albumId": 2
+    },
+    {
+        "stock": 8,
+        "storeId": 2,
+        "albumId": 3
+    },
+    {
+        "stock": 12,
+        "storeId": 2,
+        "albumId": 4
+    },
+    {
+        "stock": 3,
+        "storeId": 2,
+        "albumId": 5
+    },
+    {
+        "stock": 1,
+        "storeId": 2,
+        "albumId": 6
+    },
+    {
+        "stock": 5,
+        "storeId": 2,
+        "albumId": 7
+    },
+    {
+        "stock": 4,
+        "storeId": 2,
+        "albumId": 8
+    },
+    {
+        "stock": 7,
+        "storeId": 2,
+        "albumId": 9
+    },
+    {
+        "stock": 9,
+        "storeId": 2,
+        "albumId": 10
+    },
+    {
+        "stock": 10,
+        "storeId": 3,
+        "albumId": 1
+    },
+    {
+        "stock": 6,
+        "storeId": 3,
+        "albumId": 2
+    },
+    {
+        "stock": 8,
+        "storeId": 3,
+        "albumId": 3
+    },
+    {
+        "stock": 12,
+        "storeId": 3,
+        "albumId": 4
+    },
+    {
+        "stock": 3,
+        "storeId": 3,
+        "albumId": 5
+    },
+    {
+        "stock": 1,
+        "storeId": 3,
+        "albumId": 6
+    },
+    {
+        "stock": 5,
+        "storeId": 3,
+        "albumId": 7
+    },
+    {
+        "stock": 4,
+        "storeId": 3,
+        "albumId": 8
+    },
+    {
+        "stock": 7,
+        "storeId": 3,
+        "albumId": 9
+    },
+    {
+        "stock": 9,
+        "storeId": 3,
+        "albumId": 10
+    },
+    {
+        "stock": 10,
+        "storeId": 4,
+        "albumId": 1
+    },
+    {
+        "stock": 6,
+        "storeId": 4,
+        "albumId": 2
+    },
+    {
+        "stock": 8,
+        "storeId": 4,
+        "albumId": 3
+    },
+    {
+        "stock": 12,
+        "storeId": 4,
+        "albumId": 4
+    },
+    {
+        "stock": 3,
+        "storeId": 4,
+        "albumId": 5
+    },
+    {
+        "stock": 1,
+        "storeId": 4,
+        "albumId": 6
+    },
+    {
+        "stock": 5,
+        "storeId": 4,
+        "albumId": 7
+    },
+    {
+        "stock": 4,
+        "storeId": 4,
+        "albumId": 8
+    },
+    {
+        "stock": 7,
+        "storeId": 4,
+        "albumId": 9
+    },
+    {
+        "stock": 9,
+        "storeId": 4,
+        "albumId": 10
+    }
+]
