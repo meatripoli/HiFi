@@ -21,7 +21,7 @@ const render = function(title, employee, body) {
   
   <body>
   <!-- START navbar -->
-  <div class="container-fluid searchHeader">
+  <div class="container-fluid header">
     <div class="row">
       <div class="col-lg-2 logo">
         <img src="../img/hifi-logo.png" alt="logo" class="hifiLogo">
@@ -35,7 +35,7 @@ const render = function(title, employee, body) {
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             ${employee.first_name} ${employee.last_name}
           </a>
-          <div class="dropdown-menu pl-10" aria-labelledby="dropdownMenuLink">
+          <div class="dropdown-menu pl-10" aria-labeledby="dropdownMenuLink">
             <a class="dropdown-item" href="/employee"><i class="fas fa-user pr-2"></i> My Account</a>
             <a class="dropdown-item" href="/search"><i class="fas fa-compact-disc pr-2"></i> Record Search</a>
             <a class="dropdown-item" href="/logout"><i class="fas fa-door-closed pr-2"></i>Log out</a>

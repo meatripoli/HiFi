@@ -1,7 +1,6 @@
 const db = require("../models");
 const passport = require("../config/passport");
 
-
 module.exports = function(app) {
   // USER login
   app.post("/api/login", passport.authenticate("local"), function(req, res) {
@@ -21,14 +20,7 @@ module.exports = function(app) {
       });
   });
 
-  // USER => authenticated route to see all created users
-  app.get("/api/secret/users", passport.authenticate("local"), function(req, res) {
-    db.user.findAll().then( users => {
-      res.json(users);
-    });
-  });
-
-  // USER => NON authenticated route to see all created users
+  // USER => "secret" route to see all created users
   app.get("/api/users", function(req, res) {
     db.user.findAll().then( users => {
       res.json(users);

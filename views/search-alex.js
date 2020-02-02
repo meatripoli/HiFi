@@ -89,9 +89,8 @@ var render = function (modalContent) {
     <div class="modal-content">
       ${modalContent}
     </div>
-
   </div>
-    `
+  `
 }
 
 exports.render = render;
