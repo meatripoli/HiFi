@@ -22,10 +22,34 @@ module.exports = function(app) {
 
   // USER => "secret" route to see all created users
   app.get("/api/users", function(req, res) {
-    db.user.findAll().then( users => {
+    db.user.findAll({
+      include: {
+        model: db.employee,
+        include: {
+          model: db.store
+        }
+      }
+    }).then( users => {
       res.json(users);
     });
   });
+
+    // USER => "secret" route to see one user
+    app.get("/api/users/:id", function(req, res) {
+      db.user.findOne({
+        where: {
+          id: req.user.id
+        },
+        include: {
+          model: db.employee,
+          include: {
+            model: db.store
+          }
+        }
+      }).then( users => {
+        res.json(users);
+      });
+    });
   
   // USER logout
   // logout() method provided by Passport http://www.passportjs.org/docs/logout/

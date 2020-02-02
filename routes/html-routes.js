@@ -39,23 +39,33 @@ module.exports = function(app) {
 
   // Authenticated routes - only /search is authenticated rn
   app.get("/search", isAuthenticated, function(req, res) {
-    db.employee.findOne({
+    db.user.findOne({
       where: {
-        userId: req.user.id
+        id: req.user.id
+      },
+      include: {
+        model: db.employee,
       }
-    }).then(employee => {
-    res.send(authLayout.render("Store Record Search", employee, search.render(detail.render())));
+    }).then(user => {
+    res.send(authLayout.render("Store Record Search", 
+      user, search.render(detail.render())));
     });
   });
 
   app.get("/employee", isAuthenticated, function(req, res) {
-    db.employee.findOne({
+    db.user.findOne({
       where: {
-        userId: req.user.id
+        id: req.user.id
+      },
+      include: {
+        model: db.employee,
+        include: {
+          model: db.store
+        }
       }
-    }).then(employee => {
-      res.send(authLayout.render("HiFi Employee Home", employee,
-        employeeView.render(employee)));
+    }).then(user => {
+      res.send(authLayout.render("HiFi Employee Home", user,
+        employeeView.render(user)));
     });
   });
 
