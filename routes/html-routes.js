@@ -9,9 +9,10 @@ const authLayout = require("../views/authenticatedLayout");
 var index = require("../views/index.js");
 const loginPage = require("../views/login");
 const signupPage = require("../views/signup");
-const search = require("../views/search.js");
-const notFound = require("../views/404.js");
+const search = require("../views/search-alex.js");
 const detail = require("../views/detail.js");
+const employeeView = require("../views/employee");
+const notFound = require("../views/404.js");
 
 module.exports = function(app) {
 
@@ -38,11 +39,24 @@ module.exports = function(app) {
 
   // Authenticated routes - only /search is authenticated rn
   app.get("/search", isAuthenticated, function(req, res) {
-    res.send(authLayout.render(search.render(detail.render())));
+    db.employee.findOne({
+      where: {
+        userId: req.user.id
+      }
+    }).then(employee => {
+    res.send(authLayout.render("Store Record Search", employee, search.render(detail.render())));
+    });
   });
 
-  app.get("/employee", function(req, res) {
-    res.send(authLayout.render(req.user));
+  app.get("/employee", isAuthenticated, function(req, res) {
+    db.employee.findOne({
+      where: {
+        userId: req.user.id
+      }
+    }).then(employee => {
+      res.send(authLayout.render("HiFi Employee Home", employee,
+        employeeView.render(employee)));
+    });
   });
 
   // This needs to be the last route defined (render 404 for unmatched routes)
