@@ -1,23 +1,26 @@
 const fs = require ('fs');
+const generateNum = function (ceiling) {
+  return Math.floor(Math.random() * ceiling) + 1;
+}
+
 var jsonOut = "[";
 
 for (i = 1; i < 500; i++) {
   jsonOut += `
   {
-    "stock": ${Math.floor(Math.random() * 7) + 1},
-    "storeId": ${Math.floor(Math.random() * 4) + 1},
+    "stock": ${generateNum(7)},
+    "storeId": ${generateNum(4)},
     "albumId": ${i}
   },`;
 }
 
 jsonOut += `
   {
-    "stock": ${Math.floor(Math.random() * 7) + 1},
-    "storeId": ${Math.floor(Math.random() * 4) + 1},
+    "stock": ${generateNum(7)},
+    "storeId": ${generateNum(4)},
     "albumId": ${i}
   }
 ]`;
-
 
 fs.writeFile ('stocklist.json', jsonOut, function (err) {
   if (err) {
