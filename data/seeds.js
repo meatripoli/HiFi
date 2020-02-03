@@ -14,26 +14,20 @@ var employeelist = require("./employeelist.json");
 var stocklist = require("./stocklist.json");
 // var reviewlist = require("./reviewlist.json");
 
-db.sequelize.sync().then(function() {
-  db.user.bulkCreate(userlist);
-});
-
-db.sequelize.sync().then(function() {
-  db.store.bulkCreate(storelist);
-});
-
-db.sequelize.sync().then(function() {
-  db.album.bulkCreate(albumlist);
-});
-
-db.sequelize.sync().then(function() {
-  db.employee.bulkCreate(employeelist);
-});
-
-db.sequelize.sync().then(function() {
-  db.stock.bulkCreate(stocklist);
-});
-
-// db.sequelize.sync().then(function() {
-//   db.review.bulkCreate(reviewlist);
-// });
+db.sequelize
+  .sync()
+  .then(function() {
+    db.user.bulkCreate(userlist);
+  })
+  .then(function() {
+    db.store.bulkCreate(storelist);
+  })
+  .then(function() {
+    db.album.bulkCreate(albumlist);
+  })
+  .then(function() {
+    db.employee.bulkCreate(employeelist);
+  })
+  .then(function() {
+    db.stock.bulkCreate(stocklist);
+  });
