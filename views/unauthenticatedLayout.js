@@ -10,7 +10,6 @@ const render = function(body) {
       <title>HiFi</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <script src="https://code.jquery.com/jquery.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
       <script src="https://kit.fontawesome.com/96ca6c3009.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="../styles/styles.css">

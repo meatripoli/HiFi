@@ -4,6 +4,9 @@ $(document).ready(function() {
   var emailInput = $("input#username");
   var passwordInput = $("input#password");
 
+  // Set input focus when user navigates to pages
+  $("#username").focus();
+
   // When the form is submitted, we validate there's an email and password entered
   loginForm.on("submit", function(event) {
     event.preventDefault();
