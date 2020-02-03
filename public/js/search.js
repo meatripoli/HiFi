@@ -1,3 +1,6 @@
+// Set input focus when user navigates to pages
+$("#textBox").focus();
+
 ////code below is for submitting the album search
 
 $(".searchButton").on("click", function(event) {

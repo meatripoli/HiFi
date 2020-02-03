@@ -1,36 +1,33 @@
 const render = function() {
   return `
-  <div class="container">
-  <div class="d-flex justify-content-center h-100">
-      <div class="card">
-          <div class="card-body">
-      <div class="col-md-6 col-md-offset-3">
-        <h2>Sign Up Form</h2>
-        <form class="signup" action="/new" method="post" id="signup">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="email-input" placeholder="Email" />
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="password-input" placeholder="Password" />
-          </div>
-          <div style="display: none" id="alert" class="alert alert-danger" role="alert">
-            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-            <span class="sr-only">Error:</span> <span class="msg"></span>
-          </div>
-          <button type="submit" class="btn btn-default">Sign Up</button>
+  <div class="card signupCard">
+    <div class="card-header">
+        <h3>Sign Up</h3>
+        <div class="d-flex justify-content-end social_icon">
+            <span><i class="fab fa-facebook-square facebookIcon"></i></span>
+            <span><i class="fab fa-google-plus-square googleIcon"></i></span>
+            <span><i class="fab fa-twitter-square twitterIcon"></i></span>
+        </div>
+    </div>
+    <div class="card-body">
+        <form action="/login" method="post" id="login">
+          <label for="">First Name:</label>
+          <input type="text" class="form-control" id="firstname">
+          <label class="label">Last Name:</label>
+          <input type="text" class="form-control" id="lastname">
+            <label class = "label">Email Address:</label>
+            <input type="text" class="form-control" id="username">
+            <label class="label">Password:</label>
+            <input type="password" class="form-control" id="password">
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary float-right login_btn signup_btn">
+            </div>
         </form>
-        <br />
-        <p>Or log in <a href="/login">here</a></p>
-      </div>
     </div>
   </div>
-  </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../js/signup.js"></script>
-</body>
   `
 };
 

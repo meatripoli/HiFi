@@ -25,6 +25,7 @@ window.onclick = function(event) {
   }
 };
 
+// Menu drop down on the search album page
 function DropDown(el) {
   this.dd = el;
   this.initEvents();
