@@ -1,202 +1,2502 @@
 [
-    {
-        "stock": 10,
-        "storeId": 1,
-        "albumId": 1
-    },
-    {
-        "stock": 6,
-        "storeId": 1,
-        "albumId": 2
-    },
-    {
-        "stock": 8,
-        "storeId": 1,
-        "albumId": 3
-    },
-    {
-        "stock": 12,
-        "storeId": 1,
-        "albumId": 4
-    },
-    {
-        "stock": 3,
-        "storeId": 1,
-        "albumId": 5
-    },
-    {
-        "stock": 1,
-        "storeId": 1,
-        "albumId": 6
-    },
-    {
-        "stock": 5,
-        "storeId": 1,
-        "albumId": 7
-    },
-    {
-        "stock": 4,
-        "storeId": 1,
-        "albumId": 8
-    },
-    {
-        "stock": 7,
-        "storeId": 1,
-        "albumId": 9
-    },
-    {
-        "stock": 9,
-        "storeId": 1,
-        "albumId": 10
-    },
-    {
-        "stock": 10,
-        "storeId": 2,
-        "albumId": 1
-    },
-    {
-        "stock": 6,
-        "storeId": 2,
-        "albumId": 2
-    },
-    {
-        "stock": 8,
-        "storeId": 2,
-        "albumId": 3
-    },
-    {
-        "stock": 12,
-        "storeId": 2,
-        "albumId": 4
-    },
-    {
-        "stock": 3,
-        "storeId": 2,
-        "albumId": 5
-    },
-    {
-        "stock": 1,
-        "storeId": 2,
-        "albumId": 6
-    },
-    {
-        "stock": 5,
-        "storeId": 2,
-        "albumId": 7
-    },
-    {
-        "stock": 4,
-        "storeId": 2,
-        "albumId": 8
-    },
-    {
-        "stock": 7,
-        "storeId": 2,
-        "albumId": 9
-    },
-    {
-        "stock": 9,
-        "storeId": 2,
-        "albumId": 10
-    },
-    {
-        "stock": 10,
-        "storeId": 3,
-        "albumId": 1
-    },
-    {
-        "stock": 6,
-        "storeId": 3,
-        "albumId": 2
-    },
-    {
-        "stock": 8,
-        "storeId": 3,
-        "albumId": 3
-    },
-    {
-        "stock": 12,
-        "storeId": 3,
-        "albumId": 4
-    },
-    {
-        "stock": 3,
-        "storeId": 3,
-        "albumId": 5
-    },
-    {
-        "stock": 1,
-        "storeId": 3,
-        "albumId": 6
-    },
-    {
-        "stock": 5,
-        "storeId": 3,
-        "albumId": 7
-    },
-    {
-        "stock": 4,
-        "storeId": 3,
-        "albumId": 8
-    },
-    {
-        "stock": 7,
-        "storeId": 3,
-        "albumId": 9
-    },
-    {
-        "stock": 9,
-        "storeId": 3,
-        "albumId": 10
-    },
-    {
-        "stock": 10,
-        "storeId": 4,
-        "albumId": 1
-    },
-    {
-        "stock": 6,
-        "storeId": 4,
-        "albumId": 2
-    },
-    {
-        "stock": 8,
-        "storeId": 4,
-        "albumId": 3
-    },
-    {
-        "stock": 12,
-        "storeId": 4,
-        "albumId": 4
-    },
-    {
-        "stock": 3,
-        "storeId": 4,
-        "albumId": 5
-    },
-    {
-        "stock": 1,
-        "storeId": 4,
-        "albumId": 6
-    },
-    {
-        "stock": 5,
-        "storeId": 4,
-        "albumId": 7
-    },
-    {
-        "stock": 4,
-        "storeId": 4,
-        "albumId": 8
-    },
-    {
-        "stock": 7,
-        "storeId": 4,
-        "albumId": 9
-    },
-    {
-        "stock": 9,
-        "storeId": 4,
-        "albumId": 10
-    }
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 1
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 2
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 3
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 4
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 5
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 6
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 7
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 8
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 9
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 10
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 11
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 12
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 13
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 14
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 15
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 16
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 17
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 18
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 19
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 20
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 21
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 22
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 23
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 24
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 25
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 26
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 27
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 28
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 29
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 30
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 31
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 32
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 33
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 34
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 35
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 36
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 37
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 38
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 39
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 40
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 41
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 42
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 43
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 44
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 45
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 46
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 47
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 48
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 49
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 50
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 51
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 52
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 53
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 54
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 55
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 56
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 57
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 58
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 59
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 60
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 61
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 62
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 63
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 64
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 65
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 66
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 67
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 68
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 69
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 70
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 71
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 72
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 73
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 74
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 75
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 76
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 77
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 78
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 79
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 80
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 81
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 82
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 83
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 84
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 85
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 86
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 87
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 88
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 89
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 90
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 91
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 92
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 93
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 94
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 95
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 96
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 97
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 98
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 99
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 100
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 101
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 102
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 103
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 104
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 105
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 106
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 107
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 108
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 109
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 110
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 111
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 112
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 113
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 114
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 115
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 116
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 117
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 118
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 119
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 120
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 121
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 122
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 123
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 124
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 125
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 126
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 127
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 128
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 129
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 130
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 131
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 132
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 133
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 134
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 135
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 136
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 137
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 138
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 139
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 140
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 141
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 142
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 143
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 144
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 145
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 146
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 147
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 148
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 149
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 150
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 151
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 152
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 153
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 154
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 155
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 156
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 157
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 158
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 159
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 160
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 161
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 162
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 163
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 164
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 165
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 166
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 167
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 168
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 169
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 170
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 171
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 172
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 173
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 174
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 175
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 176
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 177
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 178
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 179
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 180
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 181
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 182
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 183
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 184
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 185
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 186
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 187
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 188
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 189
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 190
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 191
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 192
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 193
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 194
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 195
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 196
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 197
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 198
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 199
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 200
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 201
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 202
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 203
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 204
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 205
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 206
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 207
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 208
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 209
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 210
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 211
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 212
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 213
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 214
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 215
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 216
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 217
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 218
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 219
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 220
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 221
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 222
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 223
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 224
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 225
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 226
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 227
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 228
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 229
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 230
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 231
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 232
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 233
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 234
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 235
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 236
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 237
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 238
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 239
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 240
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 241
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 242
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 243
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 244
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 245
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 246
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 247
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 248
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 249
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 250
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 251
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 252
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 253
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 254
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 255
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 256
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 257
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 258
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 259
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 260
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 261
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 262
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 263
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 264
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 265
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 266
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 267
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 268
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 269
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 270
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 271
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 272
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 273
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 274
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 275
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 276
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 277
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 278
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 279
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 280
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 281
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 282
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 283
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 284
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 285
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 286
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 287
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 288
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 289
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 290
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 291
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 292
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 293
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 294
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 295
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 296
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 297
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 298
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 299
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 300
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 301
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 302
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 303
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 304
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 305
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 306
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 307
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 308
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 309
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 310
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 311
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 312
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 313
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 314
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 315
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 316
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 317
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 318
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 319
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 320
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 321
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 322
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 323
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 324
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 325
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 326
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 327
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 328
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 329
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 330
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 331
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 332
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 333
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 334
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 335
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 336
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 337
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 338
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 339
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 340
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 341
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 342
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 343
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 344
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 345
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 346
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 347
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 348
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 349
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 350
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 351
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 352
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 353
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 354
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 355
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 356
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 357
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 358
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 359
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 360
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 361
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 362
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 363
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 364
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 365
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 366
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 367
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 368
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 369
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 370
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 371
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 372
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 373
+  },
+  {
+    "stock": 1,
+    "storeId": 2,
+    "albumId": 374
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 375
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 376
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 377
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 378
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 379
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 380
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 381
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 382
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 383
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 384
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 385
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 386
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 387
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 388
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 389
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 390
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 391
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 392
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 393
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 394
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 395
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 396
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 397
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 398
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 399
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 400
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 401
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 402
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 403
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 404
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 405
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 406
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 407
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 408
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 409
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 410
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 411
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 412
+  },
+  {
+    "stock": 4,
+    "storeId": 3,
+    "albumId": 413
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 414
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 415
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 416
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 417
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 418
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 419
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 420
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 421
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 422
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 423
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 424
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 425
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 426
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 427
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 428
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 429
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 430
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 431
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 432
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 433
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 434
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 435
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 436
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 437
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 438
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 439
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 440
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 441
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 442
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 443
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 444
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 445
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 446
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 447
+  },
+  {
+    "stock": 5,
+    "storeId": 4,
+    "albumId": 448
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 449
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 450
+  },
+  {
+    "stock": 3,
+    "storeId": 1,
+    "albumId": 451
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 452
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 453
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 454
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 455
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 456
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 457
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 458
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 459
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 460
+  },
+  {
+    "stock": 3,
+    "storeId": 3,
+    "albumId": 461
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 462
+  },
+  {
+    "stock": 5,
+    "storeId": 3,
+    "albumId": 463
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 464
+  },
+  {
+    "stock": 7,
+    "storeId": 4,
+    "albumId": 465
+  },
+  {
+    "stock": 6,
+    "storeId": 2,
+    "albumId": 466
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 467
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 468
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 469
+  },
+  {
+    "stock": 6,
+    "storeId": 3,
+    "albumId": 470
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 471
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 472
+  },
+  {
+    "stock": 3,
+    "storeId": 4,
+    "albumId": 473
+  },
+  {
+    "stock": 1,
+    "storeId": 1,
+    "albumId": 474
+  },
+  {
+    "stock": 4,
+    "storeId": 1,
+    "albumId": 475
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 476
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 477
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 478
+  },
+  {
+    "stock": 5,
+    "storeId": 1,
+    "albumId": 479
+  },
+  {
+    "stock": 7,
+    "storeId": 1,
+    "albumId": 480
+  },
+  {
+    "stock": 3,
+    "storeId": 2,
+    "albumId": 481
+  },
+  {
+    "stock": 7,
+    "storeId": 2,
+    "albumId": 482
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 483
+  },
+  {
+    "stock": 5,
+    "storeId": 2,
+    "albumId": 484
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 485
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 486
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 487
+  },
+  {
+    "stock": 2,
+    "storeId": 2,
+    "albumId": 488
+  },
+  {
+    "stock": 1,
+    "storeId": 4,
+    "albumId": 489
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 490
+  },
+  {
+    "stock": 2,
+    "storeId": 3,
+    "albumId": 491
+  },
+  {
+    "stock": 6,
+    "storeId": 1,
+    "albumId": 492
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 493
+  },
+  {
+    "stock": 4,
+    "storeId": 2,
+    "albumId": 494
+  },
+  {
+    "stock": 4,
+    "storeId": 4,
+    "albumId": 495
+  },
+  {
+    "stock": 1,
+    "storeId": 3,
+    "albumId": 496
+  },
+  {
+    "stock": 2,
+    "storeId": 4,
+    "albumId": 497
+  },
+  {
+    "stock": 2,
+    "storeId": 1,
+    "albumId": 498
+  },
+  {
+    "stock": 6,
+    "storeId": 4,
+    "albumId": 499
+  },
+  {
+    "stock": 7,
+    "storeId": 3,
+    "albumId": 500
+  }
 ]
