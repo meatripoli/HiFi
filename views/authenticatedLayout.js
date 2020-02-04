@@ -1,4 +1,4 @@
-const render = function(title, employee, body) {
+const render = function(title, user, body) {
   return `
   <!DOCTYPE html>
   <html lang="en">
@@ -33,7 +33,7 @@ const render = function(title, employee, body) {
         <div class="dropdown wrapper-dropdown-3 nav-links">
           <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ${employee.first_name} ${employee.last_name}
+            ${user.employee.first_name} ${user.employee.last_name}
           </a>
           <div class="dropdown-menu pl-10" aria-labeledby="dropdownMenuLink">
             <a class="dropdown-item" href="/employee"><i class="fas fa-user pr-2"></i> My Account</a>

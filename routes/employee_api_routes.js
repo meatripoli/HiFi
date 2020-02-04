@@ -2,7 +2,11 @@ const db = require('../models');
 
 module.exports = function(app) {
   app.get("/api/employees", function(req, res) {
-    db.employee.findAll().then( data => {
+    db.employee.findAll({
+      include: {
+        model: db.store,
+      }
+    }).then( data => {
       res.json(data);
     });
   });
