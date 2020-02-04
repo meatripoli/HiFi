@@ -1,4 +1,7 @@
 const db = require('../models');
+const search = require("../views/search-alex.js");
+const detail = require("../views/detail.js");
+const searchList = require("../views/searchResultList.js");
 
 module.exports = function(app) {
   app.get("/api/albums/:album", function(req, res) {
@@ -12,7 +15,10 @@ module.exports = function(app) {
     }).then( album => {
       console.log(album.length);
       console.log(album[0].dataValues);
-      // res.json(album);
+      res.json(album);
+      ///send json back client will tackle the rendering to page
+      //or I push the new page with the rendered info
+      //idk yet
     });
   });
 
@@ -23,7 +29,3 @@ module.exports = function(app) {
     //   });
     // });
 };
-
-function buildHTMLList(obj){
-  
-}
