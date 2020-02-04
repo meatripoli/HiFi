@@ -1,4 +1,4 @@
-var render = function (modalContent) {
+var render = function (modalContent,searchContent) {
     return `
         <div class="container-fluid paginationCont">
             <div class="row">
@@ -57,10 +57,11 @@ var render = function (modalContent) {
                                 <th>Album</th>
                                 <th>Artist</th>
                                 <th>Release Year</th>
-                                <th>Rating</th>
+                                <th>Genre</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id = "searchresultlist">
+                        <!--
                             <tr>
                                 <td><a href="" class="search-link">Thriller</a></td>
                                 <td><a href="" class="search-link">Michael Jackson</a></td>                           
@@ -73,12 +74,8 @@ var render = function (modalContent) {
                                 <td>2004</td>
                                 <td>***</td>
                             </tr>
-                            <tr>
-                                <td><a href="" class="search-link">Stillmatic</a></td>
-                                <td><a href="" class="search-link">Nas</a></td>
-                                <td>2001</td>
-                                <td>****</td>
-                            </tr>
+                        -->
+                        ${searchContent}
                         </tbody>
                     </table>
                 </div>

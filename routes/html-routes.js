@@ -2,17 +2,18 @@ const path = require("path");
 var db = require("../models");
 const passport = require("../config/passport");
 // Requiring our custom middleware for checking if a user is logged in
-var isAuthenticated = require("../config/middleware/isAuthenticated");
+var isAuthenticated = require("../config/middleware/isAuthenticated.js");
 // js template literal pages
-const nonAuthLayout = require("../views/unauthenticatedLayout");
-const authLayout = require("../views/authenticatedLayout");
+const nonAuthLayout = require("../views/unauthenticatedLayout.js");
+const authLayout = require("../views/authenticatedLayout.js");
 var index = require("../views/index.js");
-const loginPage = require("../views/login");
-const signupPage = require("../views/signup");
+const loginPage = require("../views/login.js");
+const signupPage = require("../views/signup.js");
 const search = require("../views/search-alex.js");
 const detail = require("../views/detail.js");
-const employeeView = require("../views/employee");
+const employeeView = require("../views/employee.js");
 const notFound = require("../views/404.js");
+const searchList = require("../views/searchResultList.js")
 
 module.exports = function(app) {
 
@@ -48,7 +49,7 @@ module.exports = function(app) {
       }
     }).then(user => {
     res.send(authLayout.render("Store Record Search", 
-      user, search.render(detail.render())));
+      user, search.render(detail.render(),searchList.render(''))));
     });
   });
 

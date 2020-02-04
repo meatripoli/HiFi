@@ -1,4 +1,4 @@
-var render = function (modalContent) {
+var render = function (modalContent,searchContent) {
     return `
     <div class="container-fluid paginationCont">
     <div class="row justify-content-center">
@@ -59,6 +59,7 @@ var render = function (modalContent) {
             </tr>
           </thead>
           <tbody>
+          <!--
             <tr>
               <td><a href="" class="search-link">Thriller</a></td>
               <td><a href="" class="search-link">Michael Jackson</a></td>
@@ -77,6 +78,8 @@ var render = function (modalContent) {
               <td>2001</td>
               <td>****</td>
             </tr>
+            -->
+            ${searchContent}
           </tbody>
         </table>
       </div>
