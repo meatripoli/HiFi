@@ -26,7 +26,7 @@ const render = function(title, user, body) {
       <div class="col-lg-2 logo">
         <img src="../img/hifi-logo.png" alt="logo" class="hifiLogo">
       </div>
-      <div class="col-lg-6 pt-25 align-self-center nav-title">
+      <div class="col-lg-8 pt-25 align-self-center nav-title">
         <h2 class="home">${title}</h2>
       </div>
       <div class="col-lg-2 pt-25 align-self-center nav-links-wrapper">

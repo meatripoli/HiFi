@@ -209,7 +209,9 @@ button span:after {
 
 table {
     text-align: center;
-    overflow-y: auto;
+    height: 100px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
 }
 
 thead {
