@@ -11,7 +11,7 @@ var render = function (modalContent,searchContent) {
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <nav aria-label="Page navigation example">
+        <nav class="paginationNav">
           <ul class="pagination pagination-md justify-content-center">
             <li class="page-item"><a class="page-link" href="#">A</a></li>
             <li class="page-item"><a class="page-link" href="#">B</a></li>
@@ -40,6 +40,18 @@ var render = function (modalContent,searchContent) {
             <li class="page-item"><a class="page-link" href="#">Y</a></li>
             <li class="page-item"><a class="page-link" href="#">Z</a></li>
           </ul>
+
+          <select> 
+          <option value="" selected="selected">Search Albums by Letter</option> 
+          
+          <option>A</option> 
+          <option>B</option> 
+          <option>C</option>
+          <option>D</option>
+          <option>E</option> 
+          <option>F</option>
+        </select> 
+      
         </nav>
       </div>
     </div>
