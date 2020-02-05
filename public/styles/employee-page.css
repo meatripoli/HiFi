@@ -1,5 +1,4 @@
 .employee-view {
-  font-family: Nunito;
   font-size: 20px;
 }
 
@@ -7,30 +6,27 @@
   height: 100px;
 }
 
-.employee-table {}
-
+.employee-table {
+}
 
 /* .col {
   height: 60px;
 } */
 
 .table-row {
-  height: 50px;
-  border: 1px solid black;
 }
 
 .col-label {
-  background-color: #D8D8D8;
   font-weight: bold;
   text-align: center;
 }
 
 .col-data {
-  background-color: #F8E0EC;
 }
 
 /* .sp-label {
   height: 100%;
 } */
 
-.col-data {}
+.col-data {
+}
