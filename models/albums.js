@@ -13,7 +13,8 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false,
     },
     Genre: DataTypes.STRING,
-    Subgenre: DataTypes.STRING
+    Subgenre: DataTypes.STRING,
+    Img: DataTypes.STRING,
     });
 
     // Album.associate = function(models) {
