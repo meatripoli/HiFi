@@ -48,7 +48,7 @@ module.exports = function(app) {
       }
     }).then(user => {
     res.send(authLayout.render("Store Record Search", 
-      user, search.render(detail.render()));
+      user, search.render(detail.render())));
     });
   });
 
