@@ -13,7 +13,6 @@ const search = require("../views/search-alex.js");
 const detail = require("../views/detail.js");
 const employeeView = require("../views/employee.js");
 const notFound = require("../views/404.js");
-const searchList = require("../views/searchResultList.js");
 
 module.exports = function(app) {
 
@@ -49,7 +48,7 @@ module.exports = function(app) {
       }
     }).then(user => {
     res.send(authLayout.render("Store Record Search", 
-      user, search.render(detail.render(),searchList.render(''))));
+      user, search.render(detail.render()));
     });
   });
 
