@@ -4,56 +4,64 @@
     "Album": "Sgt. Pepper's Lonely Hearts Club Band",
     "Artist": "The Beatles",
     "Genre": "Rock",
-    "Subgenre": "Rock & Roll"
+    "Subgenre": "Rock & Roll",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/5a63743f4ba244678b74d90ad868504f.png"
   },
   {
     "Year": 1966,
     "Album": "Pet Sounds",
     "Artist": "The Beach Boys",
     "Genre": "Rock",
-    "Subgenre": "Pop Rock"
+    "Subgenre": "Pop Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/4f8a723d5e2848c7c820a1ac8768fce5.png"
   },
   {
     "Year": 1966,
     "Album": "Revolver",
     "Artist": "The Beatles",
     "Genre": "Rock",
-    "Subgenre": "Psychedelic Rock"
+    "Subgenre": "Psychedelic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/fafc74a8f45241acc10158be6e2d8270.png"
   },
   {
     "Year": 1965,
     "Album": "Highway 61 Revisited",
     "Artist": "Bob Dylan",
     "Genre": "Rock",
-    "Subgenre": "Folk Rock"
+    "Subgenre": "Folk Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/895c96d2911c76dbbfc1aab6cbe1db73.png"
   },
   {
     "Year": 1965,
     "Album": "Rubber Soul",
     "Artist": "The Beatles",
     "Genre": "Rock",
-    "Subgenre": "Pop"
+    "Subgenre": "Pop",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/72ed10a859fb4c1fb29a546078ec737d.png"
   },
   {
     "Year": 1971,
     "Album": "What's Going On",
     "Artist": "Marvin Gaye",
     "Genre": "Funk / Soul",
-    "Subgenre": "Soul"
+    "Subgenre": "Soul",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/2fe5c0b705ae4e29919f62bb1513ad86.png"
   },
   {
     "Year": 1972,
     "Album": "Exile on Main St.",
     "Artist": "The Rolling Stones",
     "Genre": "Rock",
-    "Subgenre": "Blues Rock"
+    "Subgenre": "Blues Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/4a0123fcd30da2937dc8b9ca4c80f8c8.png"
   },
   {
     "Year": 1979,
     "Album": "London Calling",
     "Artist": "The Clash",
     "Genre": "Rock",
-    "Subgenre": "Punk"
+    "Subgenre": "Punk",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/7d8eeb8f69e84736ab2cd659c03a1581.png"
   },
   {
     "Year": 1966,
@@ -67,77 +75,90 @@
     "Album": "The Beatles (The White Album)",
     "Artist": "The Beatles",
     "Genre": "Rock",
-    "Subgenre": "Rock & Roll"
+    "Subgenre": "Rock & Roll",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/210f365a483c4e1085a701764a9dcce9.png"
   },
   {
     "Year": 1976,
     "Album": "The Sun Sessions",
     "Artist": "Elvis Presley",
     "Genre": "Rock",
-    "Subgenre": "Rock & Roll"
+    "Subgenre": "Rock & Roll",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/17627afb086821214a037c2ec6d7fbe8.png"
+
   },
   {
     "Year": 1959,
     "Album": "Kind of Blue",
     "Artist": "Miles Davis",
     "Genre": "Jazz",
-    "Subgenre": "Modal"
+    "Subgenre": "Modal",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/7d0d1c9dd0dd46caac0265043cc41357.png"
   },
   {
     "Year": 1967,
     "Album": "The Velvet Underground & Nico",
     "Artist": "The Velvet Underground",
     "Genre": "Rock",
-    "Subgenre": "Garage Rock"
+    "Subgenre": "Garage Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/99088f450ca5eecffdd08995d53bcf8b.png"
   },
   {
     "Year": 1969,
     "Album": "Abbey Road",
     "Artist": "The Beatles",
     "Genre": "Rock",
-    "Subgenre": "Psychedelic Rock"
+    "Subgenre": "Psychedelic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/2ce29f74a6f54b8791e5fdacc2ba36f5.png"
   },
   {
     "Year": 1967,
     "Album": "Are You Experienced",
     "Artist": "The Jimi Hendrix Experience",
     "Genre": "Rock",
-    "Subgenre": "Blues"
+    "Subgenre": "Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/9bc0f14db345427dc2b9751cf7882a3e.png"
+
   },
   {
     "Year": 1975,
     "Album": "Blood on the Tracks",
     "Artist": "Bob Dylan",
     "Genre": "Rock",
-    "Subgenre": "Folk Rock"
+    "Subgenre": "Folk Rock", 
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/aee10269cd1d4e488c27b234b2213188.png"
   },
   {
     "Year": 1991,
     "Album": "Nevermind",
     "Artist": "Nirvana",
     "Genre": "Rock",
-    "Subgenre": "Alternative Rock"
+    "Subgenre": "Alternative Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/71cc320aa75906f6e4760aaaeb96b845.png"
   },
   {
     "Year": 1975,
     "Album": "Born to Run",
     "Artist": "Bruce Springsteen",
     "Genre": "Rock",
-    "Subgenre": "Pop Rock"
+    "Subgenre": "Pop Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/2f9e7a75277e438197de13fdbf1cafdb.png"
   },
   {
     "Year": 1968,
     "Album": "Astral Weeks",
     "Artist": "Van Morrison",
     "Genre": "Jazz",
-    "Subgenre": "Rock"
+    "Subgenre": "Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/47d94149a0844730d00eafb9b5d50d3a.png"
   },
   {
     "Year": 1982,
     "Album": "Thriller",
     "Artist": "Michael Jackson",
     "Genre": "Funk / Soul",
-    "Subgenre": "Pop"
+    "Subgenre": "Pop",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/e5f40ae3767cf5b6184776f97e52b8ca.png"
   },
   {
     "Year": 1982,
@@ -151,7 +172,8 @@
     "Album": "The Complete Recordings",
     "Artist": "Robert Johnson",
     "Genre": "Blues",
-    "Subgenre": "Delta Blues"
+    "Subgenre": "Delta Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/db516aa14406e9e28d859737cb609d81.png"
   },
   {
     "Year": 1970,
@@ -165,35 +187,40 @@
     "Album": "Innervisions",
     "Artist": "Stevie Wonder",
     "Genre": "Funk / Soul",
-    "Subgenre": "Soul"
+    "Subgenre": "Soul",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/4656ac4233044262c2e7ac0b6c4069e8.png"
   },
   {
     "Year": 1963,
     "Album": "Live at the Apollo (1962)",
     "Artist": "James Brown",
     "Genre": "Funk / Soul",
-    "Subgenre": "Rhythm & Blues"
+    "Subgenre": "Rhythm & Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/1a443e342044528849e0e7fa8bfceda2.png"
   },
   {
     "Year": 1977,
     "Album": "Rumours",
     "Artist": "Fleetwood Mac",
     "Genre": "Rock",
-    "Subgenre": "Pop Rock"
+    "Subgenre": "Pop Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/8946375daa364644c638c3b484aacb9e.png"
   },
   {
     "Year": 1987,
     "Album": "The Joshua Tree",
     "Artist": "U2",
     "Genre": "Rock",
-    "Subgenre": "Alternative Rock"
+    "Subgenre": "Alternative Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/b746f016aef9f8a8274c3f377e0d6316.png"
   },
   {
     "Year": 1971,
     "Album": "Who's Next",
     "Artist": "The Who",
     "Genre": "Rock",
-    "Subgenre": "Hard Rock"
+    "Subgenre": "Hard Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/e00583eacd584b10bb4ad7c28a0e542e.png"
   },
   {
     "Year": 1969,
@@ -214,21 +241,24 @@
     "Album": "Bringing It All Back Home",
     "Artist": "Bob Dylan",
     "Genre": "Rock",
-    "Subgenre": "Folk"
+    "Subgenre": "Folk",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/a40d4c6f854242398a7c53e067e450a6.png"
   },
   {
     "Year": 1969,
     "Album": "Let It Bleed",
     "Artist": "The Rolling Stones",
     "Genre": "Rock",
-    "Subgenre": "Blues Rock"
+    "Subgenre": "Blues Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/bb90486e912e42f9c250a12b8d45149e.png"
   },
   {
     "Year": 1976,
     "Album": "Ramones",
     "Artist": "Ramones",
     "Genre": "Rock",
-    "Subgenre": "Rock & Roll"
+    "Subgenre": "Rock & Roll",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/32b61b03e34a4e8a91d3bb0dea72a5b4.png"
   },
   {
     "Year": 1968,
@@ -242,21 +272,24 @@
     "Album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
     "Artist": "David Bowie",
     "Genre": "Rock",
-    "Subgenre": "Classic Rock"
+    "Subgenre": "Classic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/3017b2f31110e4f6de45a212fe93b4a3.png"
   },
   {
     "Year": 1971,
     "Album": "Tapestry",
     "Artist": "Carole King",
     "Genre": "Rock",
-    "Subgenre": "Pop"
+    "Subgenre": "Pop",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/1152593ce9894f89b570d9aef1b9b730.png",
   },
   {
     "Year": 1976,
     "Album": "Hotel California",
     "Artist": "Eagles",
     "Genre": "Rock",
-    "Subgenre": "Classic Rock"
+    "Subgenre": "Classic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/34d7c6e872074254c2147c918281d580.png"
   },
   {
     "Year": 2001,
@@ -270,42 +303,48 @@
     "Album": "Please Please Me",
     "Artist": "The Beatles",
     "Genre": "Rock",
-    "Subgenre": "Beat"
+    "Subgenre": "Beat",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/4dbfa5fc46b4429299a4dbe37f7c2a01.png"
   },
   {
     "Year": 1967,
     "Album": "Forever Changes",
     "Artist": "Love",
     "Genre": "Rock",
-    "Subgenre": "Folk Rock"
+    "Subgenre": "Folk Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/e1e62603c6d3482f9854902a917bc008.png"
   },
   {
     "Year": 1977,
     "Album": "Never Mind the Bollocks Here's the Sex Pistols",
     "Artist": "Sex Pistols",
     "Genre": "Rock",
-    "Subgenre": "Punk"
+    "Subgenre": "Punk",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/e0e7f8abe1d04bcecbde58a848718b44.png"
   },
   {
     "Year": 1967,
     "Album": "The Doors",
     "Artist": "The Doors",
     "Genre": "Rock",
-    "Subgenre": "Psychedelic Rock"
+    "Subgenre": "Psychedelic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/24590e4ca3a94c748d6c8452ce52467b.png"
   },
   {
     "Year": 1973,
     "Album": "The Dark Side of the Moon",
     "Artist": "Pink Floyd",
     "Genre": "Rock",
-    "Subgenre": "Prog Rock"
+    "Subgenre": "Prog Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/c879014345e345a19a5481dddc7ad982.png"
   },
   {
     "Year": 1975,
     "Album": "Horses",
     "Artist": "Patti Smith",
     "Genre": "Rock",
-    "Subgenre": "Art Rock"
+    "Subgenre": "Art Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/8bb507769db340eac0cdf1c10e4adacc.png"
   },
   {
     "Year": 1969,
@@ -319,42 +358,49 @@
     "Album": "Legend: The Best of Bob Marley and The Wailers",
     "Artist": "Bob Marley & The Wailers",
     "Genre": "Reggae",
-    "Subgenre": "Reggae"
+    "Subgenre": "Reggae",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/8dafb53b0763420481c7b86bdc1f25ae.png"
   },
   {
     "Year": 1965,
     "Album": "A Love Supreme",
     "Artist": "John Coltrane",
     "Genre": "Jazz",
-    "Subgenre": "Free Jazz"
+    "Subgenre": "Free Jazz",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/29555acae2ed44eea3882de43a606fd9.png"
   },
   {
     "Year": 1988,
     "Album": "It Takes a Nation of Millions to Hold Us Back",
     "Artist": "Public Enemy",
     "Genre": "Hip Hop",
-    "Subgenre": "Conscious"
+    "Subgenre": "Conscious",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/2691f1de60d34aeacac8b58b5235503e.png"
   },
   {
     "Year": 1971,
     "Album": "At Fillmore East",
     "Artist": "The Allman Brothers Band",
     "Genre": "Rock",
-    "Subgenre": "Blues"
+    "Subgenre": "Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/64318adeb7a0e3edcd70cb7cf9aabc8e.png"
+
   },
   {
     "Year": 1957,
     "Album": "Here's Little Richard",
     "Artist": "Little Richard",
     "Genre": "Rock",
-    "Subgenre": "Blues"
+    "Subgenre": "Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/846bbaac99264946bbc22eb89fb0635c.png"
   },
   {
     "Year": 1970,
     "Album": "Bridge Over Troubled Water",
     "Artist": "Simon & Garfunkel",
     "Genre": "Rock",
-    "Subgenre": "Folk Rock"
+    "Subgenre": "Folk Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/499bc379155943df93e1ce526665f1a0.png"
   },
   {
     "Year": 1975,
@@ -550,7 +596,8 @@
     "Album": "Led Zeppelin II",
     "Artist": "Led Zeppelin",
     "Genre": "Rock",
-    "Subgenre": "Blues Rock"
+    "Subgenre": "Blues Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/79eb7925a57079641e698093417efde7.png"
   },
   {
     "Year": 1971,
