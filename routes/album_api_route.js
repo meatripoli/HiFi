@@ -1,7 +1,4 @@
 const db = require('../models');
-const search = require("../views/search-alex.js");
-const detail = require("../views/detail.js");
-const searchList = require("../views/searchResultList.js");
 
 module.exports = function(app) {
   app.get("/api/albums/:album", function(req, res) {
