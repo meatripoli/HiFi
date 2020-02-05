@@ -4,7 +4,7 @@ var modal = document.getElementById("detailModal");
 // Get the button that opens the modal
 var btn = $(".search-link");
 
-// Get the <span> element that closes the modal
+// // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
@@ -39,7 +39,7 @@ DropDown.prototype = {
       event.stopPropagation();
     });
   }
-}
+};
 
 $(function() {
   var dd = new DropDown($("#dd"));

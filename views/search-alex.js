@@ -1,4 +1,4 @@
-var render = function (modalContent,searchContent) {
+var render = function (modalContent) {
     return `
     <div class="container-fluid paginationCont">
     <div class="row justify-content-center">
