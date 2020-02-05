@@ -35,4 +35,28 @@ $(".searchButton").on("click", function(event) {
     $("#searchlist").html(listHTML);
   }
 
-  //12345678
+    // AJAX for pagination on search page
+    $(".page-link").on("click",function(){
+      var buttonValue = $(this).text()
+      $("#searchlist").html("");
+      $.ajax({
+        type: "GET",
+        url: `/api/albums/page/${buttonValue}`
+      }).then(function(data){
+        console.log(data)
+        
+        for (let i = 0; i < data.length; i++) {
+          let pageResults = `
+          <tr data-id=${data[i].id}>
+            <td><a href="" class="search-link">${data[i].Album}</a></td>
+            <td><a href="">${data[i].Artist}</a></td>
+            <td>${data[i].Year}</td>
+            <td>${data[i].Genre}</td>
+          </tr>`
+
+          $("#searchlist").append(pageResults);
+          
+        }
+
+      })
+    })
