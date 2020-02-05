@@ -1,4 +1,4 @@
-var render = function (modalContent) {
+var render = function (modalContent,searchContent) {
     return `
     <div class="container-fluid paginationCont">
     <div class="row justify-content-center">
@@ -55,28 +55,10 @@ var render = function (modalContent) {
               <th>Album</th>
               <th>Artist</th>
               <th>Release Year</th>
-              <th>Rating</th>
+              <th>Genre</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td><a href="" class="search-link">Thriller</a></td>
-              <td><a href="" class="search-link">Michael Jackson</a></td>
-              <td>1982</td>
-              <td>*****</td>
-            </tr>
-            <tr>
-              <td><a href="" class="search-link">The End of Heartache</a></td>
-              <td><a href="" class="search-link">Killswitch Engage</a></td>
-              <td>2004</td>
-              <td>***</td>
-            </tr>
-            <tr>
-              <td><a href="" class="search-link">Stillmatic</a></td>
-              <td><a href="" class="search-link">Nas</a></td>
-              <td>2001</td>
-              <td>****</td>
-            </tr>
+          <tbody id="searchlist">
           </tbody>
         </table>
       </div>
