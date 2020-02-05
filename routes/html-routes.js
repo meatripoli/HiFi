@@ -11,7 +11,7 @@ const loginPage = require("../views/login.js");
 const signupPage = require("../views/signup.js");
 const search = require("../views/search-alex.js");
 const detail = require("../views/detail.js");
-const employeeView = require("../views/employee.js");
+const employeeView = require("../views/employee-copy.js");
 const notFound = require("../views/404.js");
 const searchList = require("../views/searchResultList.js");
 
