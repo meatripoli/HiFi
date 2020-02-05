@@ -18,6 +18,31 @@ $(".searchButton").on("click", function(event) {
   });
 });
 
+$(document).on("click", ".search-link", function(event) {
+  event.preventDefault();
+  console.log("pressing Album or Artist button");
+  $("#detailModal").show();
+});
+
+// When the user clicks on <span> (x), close the modal
+$(document).on("click", ".close", function(event){
+  console.log("pressing X to close");
+  console.log(event.target)
+  $("#detailModal").hide();
+});
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  console.log(event.target)
+  console.log(event.target == $("#detailModal"))
+  console.log(event.target === document.getElementById("detailModal"))
+  if (event.target == $("#detailModal")) {
+    console.log("pressing anywhere outside modal");
+    $("#detailModal").hide();
+  }
+};
+  
+
 function createHTMLList(obj){
   console.log(obj);
   obj.forEach(element => {
