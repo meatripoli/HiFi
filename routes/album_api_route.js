@@ -11,6 +11,11 @@ module.exports = function(app) {
         album: req.params.album
       }
     }).then( album => {
+      if(album.length === 0){
+        album = [{id: 0,
+          Album: req.params.album,
+          }];        
+      }
       res.json(album);
     });
   });
