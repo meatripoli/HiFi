@@ -3538,35 +3538,40 @@
     "Album": "John Prine",
     "Artist": "John Prine",
     "Genre": "Folk",
-    "Subgenre": "World & Country"
+    "Subgenre": "World & Country",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/f3dabb60279862c44fce1ab4f08ea985.png"
   },
   {
     "Year": 1987,
     "Album": "Strictly Business",
     "Artist": "EPMD",
     "Genre": "Hip Hop",
-    "Subgenre": ""
+    "Subgenre": "",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/6cc6cf42daf44f73cf697ba7bb2549d7.png"
   },
   {
     "Year": 1971,
     "Album": "Love It to Death",
     "Artist": "Alice Cooper",
     "Genre": "Rock",
-    "Subgenre": "Classic Rock"
+    "Subgenre": "Classic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/65f832e304e94de79f02d5325873efa0.png"
   },
   {
     "Year": 1984,
     "Album": "How Will the Wolf Survive?",
     "Artist": "Los Lobos",
     "Genre": "Rock",
-    "Subgenre": "Latin"
+    "Subgenre": "Latin",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/47ad25898b92416bba847f67ffb648cc.png"
   },
   {
     "Year": 1978,
     "Album": "Here, My Dear",
     "Artist": "Marvin Gaye",
     "Genre": "Funk / Soul",
-    "Subgenre": "Soul"
+    "Subgenre": "Soul",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/80876b9dfd540721cf611a3c5881c35a.png"
   },
   {
     "Year": 2005,
@@ -3580,21 +3585,24 @@
     "Album": "Tumbleweed Connection",
     "Artist": "Elton John",
     "Genre": "Rock",
-    "Subgenre": "Folk"
+    "Subgenre": "Folk",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/f423f14c26a1446ec411fe2937485d37.png"
   },
   {
     "Year": 1968,
     "Album": "The Drifters' Golden Hits",
     "Artist": "The Drifters",
     "Genre": "Rock",
-    "Subgenre": "Funk / Soul"
+    "Subgenre": "Funk / Soul",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/1ee2f375216445ef38fc3fb6203ede21.png"
   },
   {
     "Year": 1994,
     "Album": "Live Through This",
     "Artist": "Hole",
     "Genre": "Rock",
-    "Subgenre": "Grunge"
+    "Subgenre": "Grunge",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/40ed0ab59cd84e46ceb2f10a56e3ab53.png"
   },
   {
     "Year": 1979,
@@ -3615,21 +3623,24 @@
     "Album": "Heaven Up Here",
     "Artist": "Echo and The Bunnymen",
     "Genre": "Rock",
-    "Subgenre": "New Wave"
+    "Subgenre": "New Wave",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/4a860bd586074899a8db756e533da9c0.png"
   },
   {
     "Year": 1987,
     "Album": "Hysteria",
     "Artist": "Def Leppard",
     "Genre": "Rock",
-    "Subgenre": "Hard Rock"
+    "Subgenre": "Hard Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/c3d513a711ac41c1c10a3f7fb274e52f.png"
   },
   {
     "Year": 1999,
     "Album": "69 Love Songs",
     "Artist": "The Magnetic Fields",
     "Genre": "Electronic",
-    "Subgenre": "Rock"
+    "Subgenre": "Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/381da8e007594c4ccca55d327bfa6b78.png"
   },
   {
     "Year": 2002,
@@ -3643,21 +3654,24 @@
     "Album": "Tunnel of Love",
     "Artist": "Bruce Springsteen",
     "Genre": "Rock",
-    "Subgenre": ""
+    "Subgenre": "",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/38200ed727ef574f648dc0d767b61875.png"
   },
   {
     "Year": 1965,
     "Album": "The Paul Butterfield Blues Band",
     "Artist": "The Paul Butterfield Blues Band",
     "Genre": "Rock",
-    "Subgenre": "Blues"
+    "Subgenre": "Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/17f5513fc35fb39e62ea086b98dd5ecf.png"
   },
   {
     "Year": 1996,
     "Album": "The Score",
     "Artist": "Fugees",
     "Genre": "Hip Hop",
-    "Subgenre": "Pop Rap"
+    "Subgenre": "Pop Rap",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/041b41b1dece38383cdcf7e68a31c27f.png"
   },
   {
     "Year": 1985,
@@ -3671,7 +3685,8 @@
     "Album": "I Want to See the Bright Lights Tonight",
     "Artist": "Richard & Linda Thompson",
     "Genre": "Rock",
-    "Subgenre": "Classic Rock"
+    "Subgenre": "Classic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/f6f971e9b5374387afe43afc49c8101f.png"
   },
   {
     "Year": 1987,
@@ -3685,35 +3700,40 @@
     "Album": "The Smiths",
     "Artist": "The Smiths",
     "Genre": "Rock",
-    "Subgenre": "Indie Rock"
+    "Subgenre": "Indie Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/fa01bc0d6ad3537946aa6d5be68a2725.png"
   },
   {
     "Year": 2001,
     "Album": "Proxima estacion: Esperanza",
     "Artist": "Manu Chao",
     "Genre": "Rock",
-    "Subgenre": "Reggae"
+    "Subgenre": "Reggae",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/98656ed2dfa1460cb7761330bbae1669.png"
   },
   {
     "Year": 1979,
     "Album": "Armed Forces",
     "Artist": "Elvis Costello & The Attractions",
     "Genre": "Rock",
-    "Subgenre": "New Wave"
+    "Subgenre": "New Wave",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/df24cabe31364bc8be81b1d2f902e595.png"
   },
   {
     "Year": 1997,
     "Album": "Life After Death",
     "Artist": "The Notorious B.I.G.",
     "Genre": "Hip Hop",
-    "Subgenre": ""
+    "Subgenre": "",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/c3665b255284482d956cb73aa1dd00e8.png"
   },
   {
     "Year": 1996,
     "Album": "Down Every Road",
     "Artist": "Merle Haggard",
     "Genre": "Folk",
-    "Subgenre": "World & Country"
+    "Subgenre": "World & Country",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/0bb3f252b14d4af5ac5567b51ecc2caf.png"
   },
   {
     "Year": 2002,
@@ -3727,28 +3747,32 @@
     "Album": "Maggot Brain",
     "Artist": "Funkadelic",
     "Genre": "Rock",
-    "Subgenre": "Funk / Soul"
+    "Subgenre": "Funk / Soul",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/420141c400d14c4b9788fd48b9084091.png"
   },
   {
     "Year": 1995,
     "Album": "Only Built 4 Cuban Linx",
     "Artist": "Raekwon",
     "Genre": "Hip Hop",
-    "Subgenre": ""
+    "Subgenre": "",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/6e5282f2319f43d684ef1e3bf2fa8f5f.png"
   },
   {
     "Year": 2000,
     "Album": "Voodoo",
     "Artist": "D'Angelo",
     "Genre": "Hip Hop",
-    "Subgenre": "Funk / Soul"
+    "Subgenre": "Funk / Soul",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/1c4f0e845e994b82cbdbcad0eb8cc4a6.png"
   },
   {
     "Year": 1986,
     "Album": "Guitar Town",
     "Artist": "Steve Earle",
     "Genre": "Rock",
-    "Subgenre": "Folk"
+    "Subgenre": "Folk",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/1e0a42d3cb344c858067347b39f17045.png"
   },
   {
     "Year": 1979,
@@ -3762,35 +3786,40 @@
     "Album": "All the Young Dudes",
     "Artist": "Mott the Hoople",
     "Genre": "Rock",
-    "Subgenre": "Classic Rock"
+    "Subgenre": "Classic Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/16cc81581553437dc35db70b3c2aa3a7.png"
   },
   {
     "Year": 1994,
     "Album": "Vitalogy",
     "Artist": "Pearl Jam",
     "Genre": "Rock",
-    "Subgenre": "Alternative Rock"
+    "Subgenre": "Alternative Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/aa9a8b1bfead46a4c697629a7d16d8f5.png"
   },
   {
     "Year": 1975,
     "Album": "That's the Way of the World",
     "Artist": "Earth, Wind & Fire",
     "Genre": "Funk / Soul",
-    "Subgenre": "Soul"
+    "Subgenre": "Soul",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/23981d559166450b8eceac1b6139fff6.png"
   },
   {
     "Year": 1983,
     "Album": "She's So Unusual",
     "Artist": "Cyndi Lauper",
     "Genre": "Electronic",
-    "Subgenre": "Rock"
+    "Subgenre": "Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/ae70a7d166f5d47c6a7954f581cc8f9a.png"
   },
   {
     "Year": 1985,
     "Album": "New Day Rising",
     "Artist": "Husker Du",
     "Genre": "Rock",
-    "Subgenre": "Alternative Rock"
+    "Subgenre": "Alternative Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/9b3b647c2998414a8c8352399fb328cd.png"
   },
   {
     "Year": 1976,
@@ -3804,14 +3833,16 @@
     "Album": "Tres hombres",
     "Artist": "ZZ Top",
     "Genre": "Rock",
-    "Subgenre": "Blues Rock"
+    "Subgenre": "Blues Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/050b64959bdcbc20802ade31086722ea.png"
   },
   {
     "Year": 1967,
     "Album": "Born Under a Bad Sign",
     "Artist": "Albert King",
     "Genre": "Funk / Soul",
-    "Subgenre": "Blues"
+    "Subgenre": "Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/e1549b3775124d04cddeeea15d0e53f5.png"
   },
   {
     "Year": 1983,
@@ -3825,28 +3856,32 @@
     "Album": "Yankee Hotel Foxtrot",
     "Artist": "Wilco",
     "Genre": "Rock",
-    "Subgenre": "Alternative Rock"
+    "Subgenre": "Alternative Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/b30dc63512734459a046814175ef8193.png"
   },
   {
     "Year": 2007,
     "Album": "Oracular Spectacular",
     "Artist": "MGMT",
     "Genre": "Electronic",
-    "Subgenre": "Rock"
+    "Subgenre": "Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/89de16a37825420f9b87e801fcddb970.png"
   },
   {
     "Year": 1972,
     "Album": "Give It Up",
     "Artist": "Bonnie Raitt",
     "Genre": "Rock",
-    "Subgenre": "Blues Rock"
+    "Subgenre": "Blues Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/7471a7144df8324815606ab630dbf1ad.png"
   },
   {
     "Year": 1969,
     "Album": "Boz Scaggs",
     "Artist": "Boz Scaggs",
     "Genre": "Rock",
-    "Subgenre": "Pop Rock"
+    "Subgenre": "Pop Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/436138ec8061451fc597e46707a6440d.png"
   },
   {
     "Year": 2001,
@@ -3860,20 +3895,23 @@
     "Album": "The Stone Roses",
     "Artist": "The Stone Roses",
     "Genre": "Rock",
-    "Subgenre": "Indie Rock"
+    "Subgenre": "Indie Rock",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/f07a5a1e86624b3cb8ec76543b9863d7.png"
   },
   {
     "Year": 1971,
     "Album": "Live in Cook County Jail",
     "Artist": "B.B. King",
     "Genre": "Blues",
-    "Subgenre": "Electric Blues"
+    "Subgenre": "Electric Blues",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/92f78229909ffc28835c14b56326e30d.png"
   },
   {
     "Year": 1998,
     "Album": "Aquemini",
     "Artist": "OutKast",
     "Genre": "Hip Hop",
-    "Subgenre": "Reggae"
+    "Subgenre": "Reggae",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/d52864838de84f229562b7470ed96fa5.png"
   }
 ]

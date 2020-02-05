@@ -41,7 +41,7 @@ module.exports = function(app) {
     //hit this route for console'd album links
     db.album.findAll().then( album => {  
       
-      for (var i = 401; i <= 450; i++) {
+      for (var i = 451; i <= 500; i++) {
         QueryURL2 = `http://ws.audioscrobbler.com/2.0/?method=album.search&album=${album[i].Album}&api_key=32ac8da476ac9c4a40ed6e41c042107d&format=json`;
         
         axios.get(QueryURL2)
