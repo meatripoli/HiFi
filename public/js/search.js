@@ -7,13 +7,10 @@ $("#textBox").focus();
 $(".searchButton").on("click", function(event) {
     event.preventDefault();
     var searchInput= $("#textBox").val();
-    console.log(searchInput);
-
     $.ajax({
       type: "GET",
       url: `/api/albums/${searchInput}`
     }).then(function(data) {
-      console.log("inside client get req")
       createHTMLList(data);
     });
   });
@@ -22,13 +19,18 @@ $(".searchButton").on("click", function(event) {
   function createHTMLList(obj){
     console.log(obj);
     obj.forEach(element => {
-      listHTML = `${listHTML}
-      <tr data-id=${element.id}>
-      <td><a href="" class="search-link">${element.Album}</a></td>
-      <td><a href="">${element.Artist}</a></td>
-      <td>${element.Year}</td>
-      <td>${element.Genre}</td>
-      </tr>`
+      if (element.id === 0){
+        alert(`Album ${element.Album} was not found`);
+      }
+      else{
+        listHTML = `${listHTML}
+        <tr data-id=${element.id}>
+        <td><a href="" class="search-link">${element.Album}</a></td>
+        <td><a href="" class="search-link">${element.Artist}</a></td>
+        <td>${element.Year}</td>
+        <td>${element.Genre}</td>
+        </tr>`;
+      }
     }); 
     $("#searchlist").html(listHTML);
   }
