@@ -8,12 +8,11 @@ $(".searchButton").on("click", function(event) {
     event.preventDefault();
     var searchInput= $("#textBox").val();
     $.ajax({
-      type: "GET",
-      url: `/api/albums/${searchInput}`
+        type: "GET",
+        url: `/api/albums/${searchInput}`
     }).then(function(data) {
-      createHTMLList(data);
+        createHTMLList(data);
     });
-  });
 });
 
 $(document).on("click", ".search-link", function(event) {
@@ -37,6 +36,7 @@ window.onclick = function(event) {
   if (event.target == $("#detailModal")) {
     console.log("pressing anywhere outside modal");
     $("#detailModal").hide();
+  };
 };
   
 function createHTMLList(obj){
@@ -96,4 +96,43 @@ $(".page-link").on("click",function(){
     }
 
   })
-})
+});
+
+function createHTMLList(obj){
+    obj.forEach(element => {
+        if (element.id === 0){
+        alert(`Album ${element.Album} was not found`);
+        }
+        else{
+        listHTML = `${listHTML}
+        <tr data-id=${element.id}>
+        <td><a href="" class="search-link">${element.Album}</a></td>
+        <td><a href="" class="search-link">${element.Artist}</a></td>
+        <td>${element.Year}</td>
+        <td>${element.Genre}</td>
+        </tr>`;
+        }
+    }); 
+    $("#searchlist").html(listHTML);
+};
+
+// AJAX for pagination on search page
+$(".page-link").on("click",function(){
+    var buttonValue = $(this).text()
+    $("#searchlist").html("");
+    $.ajax({
+        type: "GET",
+        url: `/api/albums/page/${buttonValue}`
+    }).then(function(data){        
+        for (let i = 0; i < data.length; i++) {
+            let pageResults = `
+            <tr data-id=${data[i].id}>
+            <td><a href="" class="search-link">${data[i].Album}</a></td>
+            <td>${data[i].Artist}</td>
+            <td>${data[i].Year}</td>
+            <td>${data[i].Genre}</td>
+            </tr>`
+            $("#searchlist").append(pageResults);            
+        }
+    });
+});
