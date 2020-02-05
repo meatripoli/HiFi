@@ -33,4 +33,14 @@ $(".searchButton").on("click", function(event) {
     $("#searchlist").html(listHTML);
   }
 
-  //12345678
+    // AJAX for pagination on search page
+    $(".page-link").on("click",function(){
+      var buttonValue = $(this).text()
+      
+      $.ajax({
+        type: "GET",
+        url: `/api/albums/page/${buttonValue}`
+      }).then(data => console.log(data)
+      )
+      
+    })
