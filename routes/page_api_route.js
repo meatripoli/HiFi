@@ -6,7 +6,7 @@ module.exports = function (app) {
         db.album.findAll({
             where: {
                 Album: {
-                    [Op.like]: `${req.body.character}%`
+                    [Op.like]: `${req.params.character}%`
                 }
             }
         }).then(data => res.json(data))
