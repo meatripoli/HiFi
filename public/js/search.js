@@ -23,7 +23,7 @@ $(".searchButton").on("click", function(event) {
     console.log(obj);
     obj.forEach(element => {
       listHTML = `${listHTML}
-      <tr>
+      <tr data-id=${element.id}>
       <td><a href="" class="search-link">${element.Album}</a></td>
       <td><a href="" class="search-link">${element.Artist}</a></td>
       <td>${element.Year}</td>
