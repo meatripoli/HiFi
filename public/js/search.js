@@ -47,7 +47,7 @@ $(".searchButton").on("click", function(event) {
           let pageResults = `
           <tr data-id=${data[i].id}>
             <td><a href="" class="search-link">${data[i].Album}</a></td>
-            <td><a href="">${data[i].Artist}</a></td>
+            <td>${data[i].Artist}</td>
             <td>${data[i].Year}</td>
             <td>${data[i].Genre}</td>
           </tr>`
