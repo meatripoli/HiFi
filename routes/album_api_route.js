@@ -38,10 +38,10 @@ module.exports = function(app) {
     console.log("inside server get req")
     const output = [];
 
-    //below will be the code that searches the Album table for all albums called [req.body.searchInput]
+    //hit this route for console'd album links
     db.album.findAll().then( album => {  
       
-      for (var i = 51; i <= 100; i++) {
+      for (var i = 101; i <= 150; i++) {
         QueryURL2 = `http://ws.audioscrobbler.com/2.0/?method=album.search&album=${album[i].Album}&api_key=32ac8da476ac9c4a40ed6e41c042107d&format=json`;
         
         axios.get(QueryURL2)
