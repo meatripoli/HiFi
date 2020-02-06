@@ -42,35 +42,35 @@ var render = function (modalContent) {
           </ul>
 
           <select> 
-          <option value="" selected="selected">Search Albums by Letter</option> 
-          
-          <option>A</option> 
-          <option>B</option> 
-          <option>C</option>
-          <option>D</option>
-          <option>E</option> 
-          <option>F</option>
-          <option>G</option> 
-          <option>H</option> 
-          <option>I</option>
-          <option>J</option>
-          <option>K</option> 
-          <option>L</option>
-          <option>M</option> 
-          <option>N</option> 
-          <option>O</option>
-          <option>P</option>
-          <option>Q</option> 
-          <option>R</option>
-          <option>S</option> 
-          <option>T</option> 
-          <option>U</option>
-          <option>V</option>
-          <option>W</option> 
-          <option>X</option>
-          <option>Y</option> 
-          <option>Z</option>
-        </select> 
+            <option value="" selected="selected">Search Albums by Letter</option> 
+            
+            <option class="dropdown">A</option> 
+            <option class="dropdown">B</option> 
+            <option class="dropdown">C</option>
+            <option class="dropdown">D</option>
+            <option class="dropdown">E</option> 
+            <option class="dropdown">F</option>
+            <option class="dropdown">G</option> 
+            <option class="dropdown">H</option> 
+            <option class="dropdown">I</option>
+            <option class="dropdown">J</option>
+            <option class="dropdown">K</option> 
+            <option class="dropdown">L</option>
+            <option class="dropdown">M</option> 
+            <option class="dropdown">N</option> 
+            <option class="dropdown">O</option>
+            <option class="dropdown">P</option>
+            <option class="dropdown">Q</option> 
+            <option class="dropdown">R</option>
+            <option class="dropdown">S</option> 
+            <option class="dropdown">T</option> 
+            <option class="dropdown">U</option>
+            <option class="dropdown">V</option>
+            <option class="dropdown">W</option> 
+            <option class="dropdown">X</option>
+            <option class="dropdown">Y</option> 
+            <option class="dropdown">Z</option>
+          </select> 
       
         </nav>
       </div>
