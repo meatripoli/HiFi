@@ -32,6 +32,7 @@
   line-height: 100px;
   color: white;
   font-weight: 900;
+  display: block;
 }
 
 .nameBorder {
@@ -43,6 +44,7 @@
   -webkit-box-shadow: 0px 19px 26px 7px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 19px 26px 7px rgba(0,0,0,0.75);
   box-shadow: 0px 19px 26px 7px rgba(0,0,0,0.75);
+  width: 400px;
 }
 
 .employeeInfoDiv {
