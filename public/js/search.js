@@ -1,98 +1,98 @@
-let listHTML = "";
-// Set input focus when user navigates to pages
-$("#textBox").focus();
+$(document).ready(function () {
+  let listHTML = "";
+  // Set input focus when user navigates to pages
+  $("#textBox").focus();
 
-////code below is for submitting the album search
+  ////code below is for submitting the album search
 
-$(".searchButton").on("click", function(event) {
+  $(".searchButton").on("click", function (event) {
     event.preventDefault();
-    var searchInput= $("#textBox").val();
+    var searchInput = $("#textBox").val();
     $.ajax({
-        type: "GET",
-        url: `/api/albums/${searchInput}`
-    }).then(function(data) {
-        createHTMLList(data);
+      type: "GET",
+      url: `/api/albums/${searchInput}`
+    }).then(function (data) {
+      createHTMLList(data);
     });
-});
-
-$(document).on("click", ".search-link", function(event) {
-  let resultID = "";
-  event.preventDefault();
-  resultID = $(this).data('id');
-  $("#detailModal").show();
-  $.ajax({
-    type: "GET",
-    url: `/api/result/${resultID}`
-  }).then(function(data) {
-      createHTMLModal(data);
   });
-});
 
-// When the user clicks on <span> (x), close the modal
-$(document).on("click", ".close", function(event){
-  $("#detailModal").hide();
-});
+  $(document).on("click", ".search-link", function (event) {
+    let resultID = "";
+    event.preventDefault();
+    resultID = $(this).data('id');
+    $("#detailModal").show();
+    $.ajax({
+      type: "GET",
+      url: `/api/result/${resultID}`
+    }).then(function (data) {
+      createHTMLModal(data);
+    });
+  });
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == document.getElementById("detailModal")) {
+  // When the user clicks on <span> (x), close the modal
+  $(document).on("click", ".close", function (event) {
     $("#detailModal").hide();
+  });
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == document.getElementById("detailModal")) {
+      $("#detailModal").hide();
+    };
   };
-};
-  
-// AJAX for pagination on search page
-$(".page-link").on("click",function(){
+
+  // AJAX for pagination on search page
+  $(".page-link").on("click", function () {
     var buttonValue = $(this).text()
     $("#searchlist").html("");
     $.ajax({
-        type: "GET",
-        url: `/api/albums/page/${buttonValue}`
-    }).then(function(data){        
-        for (let i = 0; i < data.length; i++) {
-            let pageResults = `
+      type: "GET",
+      url: `/api/albums/page/${buttonValue}`
+    }).then(function (data) {
+      for (let i = 0; i < data.length; i++) {
+        let pageResults = `
             <tr>
             <td><a href="" class="search-link" data-id=${data[i].id}>${data[i].Album}</a></td>
             <td>${data[i].Artist}</td>
             <td>${data[i].Year}</td>
             <td>${data[i].Genre}</td>
             </tr>`
-            $("#searchlist").append(pageResults);            
-        }
+        $("#searchlist").append(pageResults);
+      }
     });
-});
+  });
 
-function createHTMLList(obj){
-  obj.forEach(element => {
-    if (element.id === 0){
-      alert(`Album ${element.Album} was not found`);
-    }
-    else{
-      listHTML = `${listHTML}
+  function createHTMLList(obj) {
+    obj.forEach(element => {
+      if (element.id === 0) {
+        alert(`Album ${element.Album} was not found`);
+      } else {
+        listHTML = `${listHTML}
       <tr>
       <td><a href="" class="search-link" data-id=${element.id}>${element.Album}</a></td>
       <td>${element.Artist}</td>
       <td>${element.Year}</td>
       <td>${element.Genre}</td>
       </tr>`;
-    }
-  }); 
-  $("#searchlist").html(listHTML);
-}
+      }
+    });
+    $("#searchlist").html(listHTML);
+  }
 
-function createHTMLModal(objArray){
-  let modalTableHTML = "";
-  let modalInfoHTML = "";
-  objArray.forEach(obj => {
-    //done to catch albums with no images
-    let img = obj.Img === null ? "../img/RTJ2.jpg" : obj.Img
-    modalTableHTML = `${modalTableHTML}
+  function createHTMLModal(objArray) {
+    let modalTableHTML = "";
+    let modalInfoHTML = "";
+    objArray.forEach(obj => {
+      //done to catch albums with no images
+      let img = obj.Img === null ? "../img/RTJ2.jpg" : obj.Img
+      modalTableHTML = `${modalTableHTML}
       <tr>
         <td>${obj.Name}</td>
         <td>${obj.stock}</td>
         <td>${obj.stock}</td>
         <td>0</td>
       </tr>`
-    modalInfoHTML = `
+      modalInfoHTML = `
       <div class="col-lg-6 albumCoverPic">
         <img src="${img}" alt="Album art here" style="height: 250px; width:250px">
       </div>
@@ -104,7 +104,31 @@ function createHTMLModal(objArray){
           <li>Genre: ${obj.Genre}</li>
         </ul>
       </div>`
-    $("#albuminfo").html(modalInfoHTML);
-    $("#albumstock").html(modalTableHTML)
-  });
-}
+      $("#albuminfo").html(modalInfoHTML);
+      $("#albumstock").html(modalTableHTML)
+    });
+  }
+
+  // Adding functionality for dropdown when viewport is less than 960px
+  $("select").change(function () {
+    var selected = $(this).children("option:selected").val();
+    console.log(selected);
+
+    $("#searchlist").html("");
+    $.ajax({
+      type: "GET",
+      url: `/api/albums/page/${selected}`
+    }).then(function (data) {
+      for (let i = 0; i < data.length; i++) {
+        let pageResults = `
+            <tr>
+            <td><a href="" class="search-link" data-id=${data[i].id}>${data[i].Album}</a></td>
+            <td>${data[i].Artist}</td>
+            <td>${data[i].Year}</td>
+            <td>${data[i].Genre}</td>
+            </tr>`
+        $("#searchlist").append(pageResults);
+      }
+    });
+  })
+})
