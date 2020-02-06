@@ -39,6 +39,7 @@ const render = function(body) {
     </script>
     <!-- Scripts js files -->
     <script type="text/javascript" src="../js/signup.js"></script>
+    <script src="../js/login.js"></script>
 
   </body>
   </html>

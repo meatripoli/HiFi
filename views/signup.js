@@ -3,12 +3,12 @@ const render = function() {
   <!-- body -->
   <div class="card signupCard">
     <div class="card-header">
-      <h3>New User Sign Up</h3>
-      <!-- <div class="d-flex justify-content-end social_icon">
-    <span><i class="fab fa-facebook-square facebookIcon"></i></span>
-    <span><i class="fab fa-google-plus-square googleIcon"></i></span>
-    <span><i class="fab fa-twitter-square twitterIcon"></i></span>
-  </div> -->
+      <h3>Sign Up</h3>
+      <div class="d-flex justify-content-end social_icon">
+        <span><i class="fab fa-facebook-square facebookIcon"></i></span>
+        <span><i class="fab fa-google-plus-square googleIcon"></i></span>
+       <span><i class="fab fa-twitter-square twitterIcon"></i></span>
+      </div>
     </div>
     <div class="card-body">
       <form action="/new" method="post" id="signup">
@@ -20,6 +20,10 @@ const render = function() {
           <input type="submit" value="Create" class="btn btn-primary float-right signup_btn">
         </div>
       </form>
+    </div>
+  <div class="card-footer">
+    <div class="d-flex justify-content-center links">
+      <p class="noAccount">Have an account?<a href="/login">Login In</a></p>
     </div>
   </div>
 

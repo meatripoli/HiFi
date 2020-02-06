@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  background-image: linear-gradient(#C6FFDD,#FBD786,#de6a50);
+  background-image: linear-gradient(#c6ffdd, #fbd786, #de6a50);
 }
 
 .hifiLogo {
@@ -20,23 +20,23 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
-  -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
-  box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
+  -webkit-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.67);
   border-radius: 10px;
 }
 
 .signupCard {
-  height: 530px;
+  height: 400px;
   width: 400px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
-  -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
-  box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.67);
+  -webkit-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.67);
   border-radius: 10px;
 }
 .facebookIcon {
@@ -74,7 +74,7 @@ body {
 
 .input-group-prepend span {
   width: 50px;
-  background-color: #FBD786;
+  background-color: #fbd786;
   color: black;
   border: 0 !important;
 }
@@ -82,7 +82,6 @@ body {
 input:focus {
   outline: 0 0 0 0 !important;
   box-shadow: 0 0 0 0 !important;
-
 }
 
 .remember {
@@ -97,7 +96,6 @@ input:focus {
 }
 
 .login_btn {
-
   width: 100px;
 }
 
