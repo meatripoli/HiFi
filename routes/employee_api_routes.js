@@ -13,8 +13,15 @@ module.exports = function(app) {
 
     // req.body => first_name, last_name, address1, address2, 
     app.post("/api/employees", function(req, res) {
-      db.employee.create(req.body).then( user => {
-        res.json(user);
+      db.employee.create({
+        first_name: req.body.first_name,
+        last_name: req.body.last_name,
+        fav_album: req.body.fav_album,
+        userId: req.user.id,
+        storeId: 1
+      }).then( employee  => {
+        console.log(employee);
+        res.redirect(307, "/login");
       });
     });
 
@@ -23,4 +30,5 @@ module.exports = function(app) {
         res.json(data);
       });
     });
+
 };

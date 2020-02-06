@@ -31,4 +31,12 @@ module.exports = function(app) {
       res.json(album);
     })
   })
+
+  app.get("/api/albums", function(req, res) {
+    //below will be the code that searches the Album table for all albums called [req.body.searchInput]
+    db.album.findAll().then( data => {
+      res.json(data);
+    });
+  });
+
 };

@@ -1,0 +1,36 @@
+[{
+    "first_name": "Maria",
+    "last_name": "Tripoli",
+    "fav_album": "Lemonade",
+    "userId": 1,
+    "storeId": 4
+  },
+  {
+    "first_name": "Alex",
+    "last_name": "Stevens",
+    "fav_album": "Yes Lawd!",
+    "userId": 2,
+    "storeId": 3
+  },
+  {
+    "first_name": "Esteban",
+    "last_name": "Garces",
+    "fav_album": "My Beautiful Dark Twisted Fantasy",
+    "userId": 3,
+    "storeId": 2
+  },
+  {
+    "first_name": "Farai",
+    "last_name": "Matangira",
+    "fav_album": "Reasonable Doubt",
+    "userId": 4,
+    "storeId": 3
+  },
+  {
+    "first_name": "Nelan",
+    "last_name": "Black",
+    "fav_album": "Kind of Blue",
+    "userId": 5,
+    "storeId": 4
+  }
+]

@@ -1,4 +1,3 @@
-const bcrypt = require("bcryptjs");
 // Creating our User model
 module.exports = function(sequelize, DataTypes) {
   const User = sequelize.define("user", {
@@ -17,6 +16,11 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     }
   });
+
+  User.prototype.validPassword = function(password) {
+    if (password === this.password) {
+      return true;
+    }};
 
   return User;
 };

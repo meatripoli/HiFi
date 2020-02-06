@@ -79,56 +79,64 @@ $(document).ready(function () {
     $("#searchlist").html(listHTML);
   }
 
-  function createHTMLModal(objArray) {
-    let modalTableHTML = "";
-    let modalInfoHTML = "";
-    objArray.forEach(obj => {
-      //done to catch albums with no images
-      let img = obj.Img === null ? "../img/RTJ2.jpg" : obj.Img
-      modalTableHTML = `${modalTableHTML}
-      <tr>
-        <td>${obj.Name}</td>
-        <td>${obj.stock}</td>
-        <td>${obj.stock}</td>
-        <td>0</td>
-      </tr>`
+    function createHTMLModal(objArray) {
+      let modalTableHTML = "";
+      let modalInfoHTML = "";
+      objArray.forEach(obj => {
+        //done to catch albums with no images
+        let img = obj.Img === null ? "../img/RTJ2.jpg" : obj.Img
+        // Stock tab html
+        modalTableHTML = `${modalTableHTML}
+        <tr>
+          <td>${obj.Name}</td>
+          <td>${obj.stock}</td>
+          <td>${obj.stock}</td>
+          <td>0</td>
+        </tr>`
+      // Album art html
       modalInfoHTML = `
-      <div class="col-lg-6 albumCoverPic">
-        <img src="${img}" alt="Album art here" style="height: 250px; width:250px">
+        <div class="col-lg-6 albumCoverPic">
+          <img src="${img}" alt="Album art here" style="height: 250px; width:250px">
+        </div>
+        <div class="col-lg-6 albumInfo">
+          <ul class="albumInfoList">
+            <li>Album: ${obj.Album}</li>
+            <li>Artist: ${obj.Artist}</li>
+            <li>Year: ${obj.Year}</li>
+            <li>Genre: ${obj.Genre}</li>
+          </ul>
+        </div>`
+      // Review tab html
+      let employee1 = "Alex";
+      let employee2 = "Esteban";
+      reviewHTML = `
+      <div class="card">
+        <div class="card-header">
+          ${employee2}
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p><b>${obj.Album}</b> feels like an early Christmas present to everyone who likes good
+              music. ${obj.Artist} continues to amaze in new ways with this record!</p>
+          </blockquote>
+        </div>
       </div>
-      <div class="col-lg-6 albumInfo">
-        <ul class="albumInfoList">
-          <li>Album: ${obj.Album}</li>
-          <li>Artist: ${obj.Artist}</li>
-          <li>Year: ${obj.Year}</li>
-          <li>Genre: ${obj.Genre}</li>
-        </ul>
-      </div>`
+      <div class="card">
+      <div class="card-header">
+        ${employee1}
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+      <p><b>${obj.Album}</b> is another set of coherent, well-sequenced set of tracks without any major
+          drop-offs, all the more impressive for its length. It's
+          flexible, ever-moving, a record that could have come from no one else.</p>
+        </blockquote>
+      </div>
+    </div>
+      `
       $("#albuminfo").html(modalInfoHTML);
-      $("#albumstock").html(modalTableHTML)
+      $("#albumstock").html(modalTableHTML);
+      $("#review").html(reviewHTML);
     });
   }
-
-  // Adding functionality for dropdown when viewport is less than 960px
-  $("select").change(function () {
-    var selected = $(this).children("option:selected").val();
-    console.log(selected);
-
-    $("#searchlist").html("");
-    $.ajax({
-      type: "GET",
-      url: `/api/albums/page/${selected}`
-    }).then(function (data) {
-      for (let i = 0; i < data.length; i++) {
-        let pageResults = `
-            <tr>
-            <td><a href="" class="search-link" data-id=${data[i].id}>${data[i].Album}</a></td>
-            <td>${data[i].Artist}</td>
-            <td>${data[i].Year}</td>
-            <td>${data[i].Genre}</td>
-            </tr>`
-        $("#searchlist").append(pageResults);
-      }
-    });
-  })
-})
+});

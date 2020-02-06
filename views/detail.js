@@ -44,19 +44,9 @@ var render = function () {
     </table>
   </div>
   <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="Reviews-tab-classic">
-    <p>This album rocks! Literally got me through the summer of '89! Track 8 is a personal favorite, and track 3 is
-      one for the ages!</p>
-    <p>Reviewed by: Melon</p>
-    <!---Talk about adding review posting here instead of in the earlier page as that makes better sense-->
+
   </div>
-  <div class="tab-pane fade" id="trackList" role="tabpanel" aria-labelledby="TrackList-tab-classic">
-    <ul style="list-style-type:decimal">
-      <li>Intro</li>
-      <li>Second Track</li>
-      <li>Album over</li>
-    </ul>
-  </div>
-    </div>`
+  </div>`
 }
 
 exports.render = render;

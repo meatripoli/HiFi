@@ -13,4 +13,18 @@ module.exports = function(app) {
         res.json(review);
       });
     });
+
+  app.get("/api/secret/review", function(req, res) {
+    //below will be the code that searches the Album table for all albums called [req.body.searchInput]
+    db.album.findOne({
+      where: {
+        id: 7,
+        include: {
+          model: db.review,
+        }
+      }
+    }).then( album => {
+      res.json(album);
+    });
+  });
 };

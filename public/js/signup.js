@@ -1,11 +1,11 @@
 $(document).ready(function() {
-  // Getting references to our form and input
+  // User create
   var signUpForm = $("form#signup");
-  var emailInput = $("input#email-input");
-  var passwordInput = $("input#password-input");
+  var emailInput = $("input#emailInput");
+  var passwordInput = $("input#passwordInput");
 
   // Set input focus when user navigates to pages
-  $("#firstname").focus();
+  $("#emailInput").focus();
 
   // When the signup button is clicked, we validate the email and password are not blank
   signUpForm.on("submit", function(event) {
@@ -14,11 +14,10 @@ $(document).ready(function() {
       email: emailInput.val().trim(),
       password: passwordInput.val().trim()
     };
-
     if (!userData.email || !userData.password) {
       return;
     }
-    // If we have an email and password, run the signUpUser function
+    console.log(userData);
     signUpUser(userData.email, userData.password);
     emailInput.val("");
     passwordInput.val("");
@@ -30,7 +29,8 @@ $(document).ready(function() {
       password: password
     })
       .then(function(data) {
-        window.location.replace("/search");
+        console.log(data);
+        window.location.replace("/employee/new");
       })
       .catch(handleLoginErr);
   }

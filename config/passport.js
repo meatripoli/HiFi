@@ -19,7 +19,7 @@ passport.use(
           return done(null, false, {
             message: "Incorrect email."
           });
-        } else if (!dbUser.password) {
+        } else if (!dbUser.validPassword(password)) {
           return done(null, false, {
             message: "Incorrect password."
           });

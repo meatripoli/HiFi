@@ -21,6 +21,11 @@ module.exports = function(sequelize, DataTypes) {
           allowNull: false
         }
       });
+      models.album.hasMany(models.review, {
+        foreignKey: {
+          allowNull: true
+        }
+      });
     };
     return Review;
   };
