@@ -12,7 +12,7 @@ var storelist = require("./storelist.json");
 var albumlist = require("./albumlist.json");
 var employeelist = require("./employeelist.json");
 var stocklist = require("./stocklist.json");
-// var reviewlist = require("./reviewlist.json");
+var reviewlist = require("./reviewlist.json");
 
 db.sequelize
   .sync()
@@ -30,4 +30,7 @@ db.sequelize
   })
   .then(function() {
     db.stock.bulkCreate(stocklist);
+  })
+  .then(function() {
+    db.review.bulkCreate(reviewlist);
   });
