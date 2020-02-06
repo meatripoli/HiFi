@@ -40,7 +40,6 @@ var render = function () {
         </tr>
       </thead>
       <tbody id="albumstock">
-        
       </tbody>
     </table>
   </div>

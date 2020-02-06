@@ -26,7 +26,6 @@ module.exports = function(app) {
       { type: db.sequelize.QueryTypes.SELECT}
     )
     .then(function(album) {
-      console.log("inside query then");
       // We don't need spread here, since only the results will be returned for select queries
       res.json(album);
     })

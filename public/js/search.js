@@ -1,6 +1,4 @@
 let listHTML = "";
-let modalTableHTML = "";
-let modalInfoHTML = "";
 // Set input focus when user navigates to pages
 $("#textBox").focus();
 
@@ -18,8 +16,9 @@ $(".searchButton").on("click", function(event) {
 });
 
 $(document).on("click", ".search-link", function(event) {
+  let resultID = "";
   event.preventDefault();
-  let resultID = $('.search-link').data('id');
+  resultID = $(this).data('id');
   $("#detailModal").show();
   $.ajax({
     type: "GET",
@@ -81,6 +80,8 @@ function createHTMLList(obj){
 }
 
 function createHTMLModal(objArray){
+  let modalTableHTML = "";
+  let modalInfoHTML = "";
   objArray.forEach(obj => {
     //done to catch albums with no images
     let img = obj.Img === null ? "../img/RTJ2.jpg" : obj.Img
