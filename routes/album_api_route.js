@@ -1,5 +1,4 @@
 const db = require('../models');
-const axios = require('axios');
 
 module.exports = function(app) {
   app.get("/api/albums/:album", function(req, res) {
