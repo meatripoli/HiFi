@@ -9,7 +9,7 @@ var db = require("../models");
 
 var userlist = require("./userlist.json");
 var storelist = require("./storelist.json");
-var employeelist = require("./employeelist.json");
+var employeelist = require("./employeelistShort.json");
 var albumlist = require("./albumlist.json");
 var stocklist = require("./stocklist.json");
 var reviewlist = require("./reviewlist.json");
