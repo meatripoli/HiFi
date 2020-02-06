@@ -6,7 +6,7 @@ const render = function(user) {
     </div>
   <div class="row">
     <div class="col-md-5 img">
-      <img src="./img/headphones-sm.jpeg"  alt="" class="img-rounded">
+      <img src="/img/employee${user.employee.id}.png"  alt="" class="img-rounded">
     </div>
     <div class="col-md-7 employee-table">
       <h2> ${user.employee.first_name} ${user.employee.last_name}</h2>  
