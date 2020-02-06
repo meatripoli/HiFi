@@ -19,17 +19,15 @@ module.exports = function(app) {
 
   app.get("/api/result/:id", function(req, res) {
     //below will be the code that searches the Album table for all albums called [req.body.searchInput]
-    db.album.findAll({
-      where: {
-        album: req.params.id
-      },
-      include: [
-        {
-          model: db.store
-        }
-      ]
-    }).then( album => {
-      console.log(album);
-    });
-  });
+    db.sequelize.query(
+      `SELECT b.stock,a.Year,a.Album,a.Artist,a.Genre,a.Img,a.Subgenre,c.Name
+      FROM hifi_db.stocks b LEFT JOIN hifi_db.albums a ON a.id=b.albumId LEFT JOIN hifi_db.stores c ON b.storeId = c.id
+      where b.albumId=${req.params.id}`, 
+      { type: db.sequelize.QueryTypes.SELECT}
+    )
+    .then(function(album) {
+      // We don't need spread here, since only the results will be returned for select queries
+      res.json(album);
+    })
+  })
 };
