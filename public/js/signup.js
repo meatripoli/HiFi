@@ -19,13 +19,10 @@ $(document).ready(function() {
       email: emailInput.val().trim(),
       password: passwordInput.val().trim()
     };
-
-    console.log(userData);
-
     if (!userData.email || !userData.password) {
       return;
     }
-    // If we have an email and password, run the signUpUser function
+    // $('#employeeModal').modal('show');
     signUpUser(userData.email, userData.password);
     // emailInput.val("");
     // passwordInput.val("");
@@ -37,18 +34,17 @@ $(document).ready(function() {
       password: password
     })
       .then(function(data) {
-        console.log(data);
-        // $('#employeeModal').modal('toggle')
-        // window.location.replace("/search");
+        // $('#employeeModal').modal('show');
+        window.location.replace("/search");
       })
       .catch(handleLoginErr);
   }
 
   // Create Employee JS
 
-  $(document).on('shown.bs.modal', function (e) {
-    $("#firstname").focus();
-  });
+  // $(document).on('shown.bs.modal', function (e) {
+  //   $("#firstname").focus();
+  // });
 
     
   employeeForm.on("submit", function(event) {
@@ -67,7 +63,7 @@ $(document).ready(function() {
     });
 
   function createEmployee(firstName, lastName, favAlbum) {
-    $.post("/api/employee", {
+    $.post("/api/employees", {
       first_name: firstName,
       last_name: lastName,
       fav_album: favAlbum

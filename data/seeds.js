@@ -23,10 +23,10 @@ db.sequelize
     db.store.bulkCreate(storelist);
   })
   .then(function() {
-    db.employee.bulkCreate(employeelist);
+    db.album.bulkCreate(albumlist);
   })
   .then(function() {
-    db.album.bulkCreate(albumlist);
+    db.employee.bulkCreate(employeelist);
   })
   .then(function() {
     db.stock.bulkCreate(stocklist);
