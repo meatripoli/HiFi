@@ -183,7 +183,7 @@
     "Artist": "John Lennon / Plastic Ono Band",
     "Genre": "Rock",
     "Subgenre": "Pop Rock",
-    "Img": "John Lennon"
+    "Img": "Null"
   },
   {
     "Year": 1973,
@@ -287,7 +287,7 @@
     "Artist": "Carole King",
     "Genre": "Rock",
     "Subgenre": "Pop",
-    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/1152593ce9894f89b570d9aef1b9b730.png",
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/1152593ce9894f89b570d9aef1b9b730.png"
   },
   {
     "Year": 1976,
@@ -1448,7 +1448,7 @@
     "Artist": "Bob Marley & The Wailers",
     "Genre": "Reggae",
     "Subgenre": "Reggae",
-    "Img": "'https://lastfm.freetls.fastly.net/i/u/300x300/42a8c8a38def7d1b42c5f0f49852a8e0.png"
+    "Img": "https://lastfm.freetls.fastly.net/i/u/300x300/42a8c8a38def7d1b42c5f0f49852a8e0.png"
   },
   {
     "Year": 1975,
