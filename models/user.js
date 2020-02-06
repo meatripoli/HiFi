@@ -18,5 +18,10 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
 
+  User.prototype.validPassword = function(password) {
+    if (password === this.password) {
+      return true;
+    }};
+
   return User;
 };
