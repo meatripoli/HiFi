@@ -7,6 +7,7 @@ body {
 .hifiLogo {
   position: absolute;
 }
+
 .container {
   height: 100%;
   align-content: center;
@@ -39,6 +40,7 @@ body {
   box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.67);
   border-radius: 10px;
 }
+
 .facebookIcon {
   color: #4266b2;
 }
@@ -126,4 +128,26 @@ input:focus {
 
 .signup_btn {
   margin-top: 25px;
+}
+
+
+
+/* Employee New Form */
+.home {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 60px;
+  color: #de6a50;
+}
+
+#createEmployee #ce-row #ce-column #ce-box {
+  margin-top: 80px;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #9c9c9c;
+  background-color: #eaeaea;
+}
+
+#createEmployee #ce-row #ce-column #ce-box #ce-form {
+  padding: 20px;
 }

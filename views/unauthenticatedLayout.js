@@ -38,7 +38,6 @@ const render = function(body) {
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
     <!-- Scripts js files -->
-    <script type="text/javascript" src="../js/signup.js"></script>
     <script src="../js/login.js"></script>
 
   </body>
@@ -47,8 +46,3 @@ const render = function(body) {
 };
 
 exports.render = render;
-
-
-{/* <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>  */}

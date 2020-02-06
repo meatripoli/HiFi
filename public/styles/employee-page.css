@@ -8,9 +8,9 @@
   border-radius: 200px;
   width: 25%;
   border: 10px solid #de6a50;
-  -webkit-box-shadow: 0px 25px 27px -7px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 25px 27px -7px rgba(0,0,0,0.75);
-  box-shadow: 0px 25px 27px -7px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 25px 27px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 25px 27px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 25px 27px -7px rgba(0, 0, 0, 0.75);
 }
 
 .introDiv {
@@ -40,9 +40,9 @@
   border-radius: 40px;
   height: 300px;
   padding-top: 45px;
-  -webkit-box-shadow: 0px 19px 26px 7px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 19px 26px 7px rgba(0,0,0,0.75);
-  box-shadow: 0px 19px 26px 7px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 19px 26px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 19px 26px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 19px 26px 7px rgba(0, 0, 0, 0.75);
 }
 
 .employeeInfoDiv {
@@ -66,10 +66,10 @@
   background-color: white;
   color: #de6a50;
   border-radius: 15px;
-  -webkit-box-shadow: 0px 25px 29px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 25px 29px -5px rgba(0,0,0,0.75);
-  box-shadow: 0px 25px 29px -5px rgba(0,0,0,0.75);
-} 
+  -webkit-box-shadow: 0px 25px 29px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 25px 29px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 25px 29px -5px rgba(0, 0, 0, 0.75);
+}
 
 @media (max-width: 1199px) {
 
@@ -79,25 +79,25 @@
     font-size: 55px;
     line-height: 80px;
   }
-  
+
   .nameBorder {
     padding-top: 60px;
   }
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
   .employeeNameDiv {
     padding-top: 65px;
     display: inline;
     font-size: 38px;
   }
-  
+
   .nameBorder {
     height: 65px;
     padding-top: 0px;
-    -webkit-box-shadow: 0px 19px 35px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 19px 35px -5px rgba(0,0,0,0.75);
-    box-shadow: 0px 19px 35px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 19px 35px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 19px 35px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 19px 35px -5px rgba(0, 0, 0, 0.75);
   }
 
   .employeeInfoDiv {
@@ -105,46 +105,43 @@
     text-align: center;
     padding-top: 20px;
   }
-  
+
   .employeeLabel {
     font-size: 30px;
     font-weight: 900;
     padding-top: 10px;
   }
-  
+
   .topLabel {
     padding-top: 0;
   }
-  
+
   .employeeData {
     font-size: 25px;
     background-color: white;
     color: #de6a50;
     border-radius: 15px;
-    -webkit-box-shadow: 6px 17px 21px -7px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 17px 21px -7px rgba(0,0,0,0.75);
-    box-shadow: 6px 17px 21px -7px rgba(0,0,0,0.75);
-  } 
+    -webkit-box-shadow: 6px 17px 21px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 17px 21px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 17px 21px -7px rgba(0, 0, 0, 0.75);
+  }
 
 }
 
-@media (max-width: 575px) { 
+@media (max-width: 575px) {
   .employeeNameDiv {
     padding-top: 80px;
     display: inline;
     font-size: 25px;
   }
-  
+
   .employeeLabel {
     font-size: 25px;
   }
 
   .employeeData {
     font-size: 20px;
-  } 
+  }
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||||| */
-
-
-  
