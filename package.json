@@ -4,9 +4,7 @@
   "description": "Bootcamp Project 2",
   "main": "server.js",
   "scripts": {
-    "prod": "node server.js",
-    "dev": "node server.js",
-    "start": "npm run-script seed",
+    "start": "node server.js",
     "lint": "eslint --quiet .",
     "fix": "eslint --fix .",
     "test": "npm run lint && cross-env NODE_ENV=test mocha -u tdd --reporter spec --exit",
