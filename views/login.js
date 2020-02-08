@@ -57,7 +57,7 @@ const render = function() {
           </div>
           <div class="card-footer">
               <div class="d-flex justify-content-center links">
-                  <a tabindex="0" class="btn btn-lg btn-primary text-center" role="button" data-toggle="popover" data-trigger="click" 
+                  <a tabindex="0" class="btn btn-lg btn-primary text-center" role="button" data-toggle="popover" data-trigger="focus" 
                     title="Login Credentials">Speak Friend</a>
               </div>
           </div>
