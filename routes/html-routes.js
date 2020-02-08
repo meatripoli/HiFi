@@ -4,10 +4,8 @@ const passport = require("../config/passport");
 // Requiring our custom middleware for checking if a user is logged in
 var isAuthenticated = require("../config/middleware/isAuthenticated.js");
 // js template literal pages
-const nonAuthLayout = require("../views/unauthenticatedLayout.js");
 const authLayout = require("../views/authenticatedLayout.js");
-var index = require("../views/index.js");
-const loginPage = require("../views/login.js");
+const loginPage = require("../views/login");
 const signupPage = require("../views/signup.js");
 const search = require("../views/search.js");
 const detail = require("../views/detail.js");
@@ -27,7 +25,7 @@ module.exports = function(app) {
     if (req.user) {
       res.redirect("/search");
     }
-    res.send(nonAuthLayout.render(loginPage.render()));
+    res.send(loginPage.render());
   });
 
   // New user signup form
@@ -35,7 +33,7 @@ module.exports = function(app) {
     if (req.user) {
       res.redirect("/search");
     }
-    res.send(nonAuthLayout.render(signupPage.render()));
+    res.send(signupPage.render());
   });
 
   // Authenticated routes - only /search is authenticated rn
@@ -76,6 +74,6 @@ module.exports = function(app) {
 
   // This needs to be the last route defined (render 404 for unmatched routes)
   app.get("*", function(req, res) {
-    res.send(nonAuthLayout.render(notFound.render()));
+    res.send(notFound.render());
   });
 };
